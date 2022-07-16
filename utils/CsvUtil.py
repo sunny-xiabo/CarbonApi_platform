@@ -40,4 +40,6 @@ class CsvUtil:
 
 # if __name__ == '__main__':
 #     cu = CsvUtil(config.csvPath+'second_level.csv')
+#     cu2 = CsvUtil(config.csvPath+'login.csv')
 #     cu.getCsvData()
+#     cu2.getCsvData()

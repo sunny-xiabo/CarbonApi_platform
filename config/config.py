@@ -14,3 +14,6 @@ configPath = os.path.join(currentPath, 'config/')  # 配置存储地址
 csvPath = os.path.join(currentPath, 'data/')  # csv存储地址
 testcasePath = os.path.join(currentPath, 'test_cases/')  # 测试用例存储地址
 allurejsonPath = os.path.join(currentPath, 'json/')  # allure报告所需json数据存储地址
+
+
+# print(testcasePath)

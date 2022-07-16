@@ -1,0 +1,5 @@
+username,password,statusCode,errorCode,msg
+wangwu,123,200,200,success
+zhaoliu,123,200,200,success
+yyyy,1234,200,400,登录失败，用户名或者密码错误
+xxxx,12345,200,400,用户名不存在

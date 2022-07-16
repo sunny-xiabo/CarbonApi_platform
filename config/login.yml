@@ -1,0 +1,13 @@
+name: login
+method: POST
+url: /shop/mlogin
+headers: ~
+params: ~
+data:
+  username: ~
+  password: ~
+json: ~
+validate:
+  statusCode: ~
+  errorCode: ~
+  msg: ~

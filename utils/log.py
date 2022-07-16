@@ -24,7 +24,7 @@ class Logger(logging.Logger):
             logs_format = logging.Formatter(
                 '[%(asctime)s] %(filename)s -> %(funcName)s line:%(lineno)d [%(levelname)s] %(message)s')
             # 日志文件路径及名称
-            self.log_file = os.path.join(config.logPath + '/runlog.txt')
+            self.log_file = os.path.join(config.logPath + 'runlog.txt')
 
             # 设置控制台输出
             terminal = logging.StreamHandler()

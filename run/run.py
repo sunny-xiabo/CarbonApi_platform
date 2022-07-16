@@ -23,4 +23,4 @@ from config import config
 '''
 
 if __name__ == '__main__':
-    pytest.main(['-v', '-s', config.testcasePath, '--alluredir='+config.allurejsonPath])
+    pytest.main(['-v', '-s', config.testcasePath, '--alluredir=' + config.allurejsonPath, '--clean-alluredir'])
