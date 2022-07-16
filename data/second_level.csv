@@ -1,0 +1,8 @@
+csid,page,statusCode,errorCode,msg
+1,1,200,200,success
+2,2,200,200,success
+3,0,200,400,当前page存在问题
+100,1,200,400,当前csid存在问题
+1,,200,400,page为必填项
+q,r,200,400,参数类型错误
+z,s,200,400,参数类型错误

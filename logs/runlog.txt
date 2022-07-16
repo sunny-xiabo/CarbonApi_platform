@@ -1,0 +1,706 @@
+[2022-07-15 22:11:56,822] main.py-><module> line:4 [INFO]testapi
+[2022-07-15 22:28:59,269] main.py-> <module> line:4 [INFO]testapi
+[2022-07-15 22:33:59,387] main.py -> <module> line:4 [INFO] testapi
+[2022-07-16 00:30:20,298] main.py -> <module> line:4 [INFO] testapi
+[2022-07-16 00:30:43,538] YamlUtil.py -> getYamlData line:28 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 12:42:51,930] CsvUtil.py -> getCsvData line:36 [INFO] 读取CSV格式化后内容：[{'csid': '1', 'page': '1', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '2', 'page': '2', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '3', 'page': '0', 'statusCode': '200', 'errorCode': '400', 'msg': '当前page存在问题'}, {'csid': '100', 'page': '1', 'statusCode': '200', 'errorCode': '400', 'msg': '当前csid存在问题'}, {'csid': '1', 'page': '', 'statusCode': '200', 'errorCode': '400', 'msg': 'page为必填项'}, {'csid': 'q', 'page': 'r', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}, {'csid': 'z', 'page': 's', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}]
+[2022-07-16 12:44:02,526] CsvUtil.py -> getCsvData line:36 [INFO] 读取CSV格式化后内容：[{'csid': '1', 'page': '1', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '2', 'page': '2', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '3', 'page': '0', 'statusCode': '200', 'errorCode': '400', 'msg': '当前page存在问题'}, {'csid': '100', 'page': '1', 'statusCode': '200', 'errorCode': '400', 'msg': '当前csid存在问题'}, {'csid': '1', 'page': '', 'statusCode': '200', 'errorCode': '400', 'msg': 'page为必填项'}, {'csid': 'q', 'page': 'r', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}, {'csid': 'z', 'page': 's', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}]
+[2022-07-16 12:44:04,182] CsvUtil.py -> getCsvData line:36 [INFO] 读取CSV格式化后内容：[{'csid': '1', 'page': '1', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '2', 'page': '2', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '3', 'page': '0', 'statusCode': '200', 'errorCode': '400', 'msg': '当前page存在问题'}, {'csid': '100', 'page': '1', 'statusCode': '200', 'errorCode': '400', 'msg': '当前csid存在问题'}, {'csid': '1', 'page': '', 'statusCode': '200', 'errorCode': '400', 'msg': 'page为必填项'}, {'csid': 'q', 'page': 'r', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}, {'csid': 'z', 'page': 's', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}]
+[2022-07-16 12:44:12,087] CsvUtil.py -> getCsvData line:36 [INFO] 读取CSV格式化后内容：[{'csid': '1', 'page': '1', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '2', 'page': '2', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '3', 'page': '0', 'statusCode': '200', 'errorCode': '400', 'msg': '当前page存在问题'}, {'csid': '100', 'page': '1', 'statusCode': '200', 'errorCode': '400', 'msg': '当前csid存在问题'}, {'csid': '1', 'page': '', 'statusCode': '200', 'errorCode': '400', 'msg': 'page为必填项'}, {'csid': 'q', 'page': 'r', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}, {'csid': 'z', 'page': 's', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}]
+[2022-07-16 12:44:51,407] YamlUtil.py -> getYamlData line:28 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 12:45:45,757] CsvUtil.py -> getCsvData line:36 [INFO] 读取CSV格式化后内容：[{'csid': '1', 'page': '1', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '2', 'page': '2', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '3', 'page': '0', 'statusCode': '200', 'errorCode': '400', 'msg': '当前page存在问题'}, {'csid': '100', 'page': '1', 'statusCode': '200', 'errorCode': '400', 'msg': '当前csid存在问题'}, {'csid': '1', 'page': '', 'statusCode': '200', 'errorCode': '400', 'msg': 'page为必填项'}, {'csid': 'q', 'page': 'r', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}, {'csid': 'z', 'page': 's', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}]
+[2022-07-16 12:49:11,405] CsvUtil.py -> getCsvData line:36 [INFO] 读取CSV格式化后内容：[{'csid': '1', 'page': '1', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '2', 'page': '2', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '3', 'page': '0', 'statusCode': '200', 'errorCode': '400', 'msg': '当前page存在问题'}, {'csid': '100', 'page': '1', 'statusCode': '200', 'errorCode': '400', 'msg': '当前csid存在问题'}, {'csid': '1', 'page': '', 'statusCode': '200', 'errorCode': '400', 'msg': 'page为必填项'}, {'csid': 'q', 'page': 'r', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}, {'csid': 'z', 'page': 's', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}]
+[2022-07-16 13:06:08,441] CsvUtil.py -> getCsvData line:36 [INFO] 读取CSV格式化后内容：[{'csid': '1', 'page': '1', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '2', 'page': '2', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '3', 'page': '0', 'statusCode': '200', 'errorCode': '400', 'msg': '当前page存在问题'}, {'csid': '100', 'page': '1', 'statusCode': '200', 'errorCode': '400', 'msg': '当前csid存在问题'}, {'csid': '1', 'page': '', 'statusCode': '200', 'errorCode': '400', 'msg': 'page为必填项'}, {'csid': 'q', 'page': 'r', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}, {'csid': 'z', 'page': 's', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}]
+[2022-07-16 13:09:09,342] CsvUtil.py -> getCsvData line:36 [INFO] 读取CSV格式化后内容：[{'csid': '1', 'page': '1', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '2', 'page': '2', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '3', 'page': '0', 'statusCode': '200', 'errorCode': '400', 'msg': '当前page存在问题'}, {'csid': '100', 'page': '1', 'statusCode': '200', 'errorCode': '400', 'msg': '当前csid存在问题'}, {'csid': '1', 'page': '', 'statusCode': '200', 'errorCode': '400', 'msg': 'page为必填项'}, {'csid': 'q', 'page': 'r', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}, {'csid': 'z', 'page': 's', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}]
+[2022-07-16 13:09:09,345] YamlUtil.py -> getYamlData line:28 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 13:09:09,346] YamlUtil.py -> getYamlData line:28 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 13:09:09,347] YamlUtil.py -> getYamlData line:28 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 13:09:09,348] YamlUtil.py -> getYamlData line:28 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 13:09:09,349] YamlUtil.py -> getYamlData line:28 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 13:09:09,350] YamlUtil.py -> getYamlData line:28 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 13:09:09,351] YamlUtil.py -> getYamlData line:28 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 13:23:40,138] CsvUtil.py -> getCsvData line:36 [INFO] 读取CSV格式化后内容：[{'csid': '1', 'page': '1', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '2', 'page': '2', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '3', 'page': '0', 'statusCode': '200', 'errorCode': '400', 'msg': '当前page存在问题'}, {'csid': '100', 'page': '1', 'statusCode': '200', 'errorCode': '400', 'msg': '当前csid存在问题'}, {'csid': '1', 'page': '', 'statusCode': '200', 'errorCode': '400', 'msg': 'page为必填项'}, {'csid': 'q', 'page': 'r', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}, {'csid': 'z', 'page': 's', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}]
+[2022-07-16 13:23:40,141] YamlUtil.py -> getYamlData line:28 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 13:23:50,379] CsvUtil.py -> getCsvData line:36 [INFO] 读取CSV格式化后内容：[{'csid': '1', 'page': '1', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '2', 'page': '2', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '3', 'page': '0', 'statusCode': '200', 'errorCode': '400', 'msg': '当前page存在问题'}, {'csid': '100', 'page': '1', 'statusCode': '200', 'errorCode': '400', 'msg': '当前csid存在问题'}, {'csid': '1', 'page': '', 'statusCode': '200', 'errorCode': '400', 'msg': 'page为必填项'}, {'csid': 'q', 'page': 'r', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}, {'csid': 'z', 'page': 's', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}]
+[2022-07-16 13:23:50,382] YamlUtil.py -> getYamlData line:28 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 13:23:50,383] YamlUtil.py -> getYamlData line:28 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 13:23:50,384] YamlUtil.py -> getYamlData line:28 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 13:23:50,385] YamlUtil.py -> getYamlData line:28 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 13:23:50,386] YamlUtil.py -> getYamlData line:28 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 13:23:50,387] YamlUtil.py -> getYamlData line:28 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 13:23:50,388] YamlUtil.py -> getYamlData line:28 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 13:23:50,388] requestDataUtil.py -> getRequestData line:69 [INFO] 组装请求数据：[{'name': 'second_level', 'method': 'POST', 'url': 'http"//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '1', 'page': '1'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '200', 'msg': 'success'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http"//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '2', 'page': '2'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '200', 'msg': 'success'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http"//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '3', 'page': '0'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '当前page存在问题'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http"//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '100', 'page': '1'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '当前csid存在问题'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http"//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '1', 'page': ''}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': 'page为必填项'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http"//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': 'q', 'page': 'r'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http"//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': 'z', 'page': 's'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}}]
+[2022-07-16 13:24:16,594] CsvUtil.py -> getCsvData line:36 [INFO] 读取CSV格式化后内容：[{'csid': '1', 'page': '1', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '2', 'page': '2', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '3', 'page': '0', 'statusCode': '200', 'errorCode': '400', 'msg': '当前page存在问题'}, {'csid': '100', 'page': '1', 'statusCode': '200', 'errorCode': '400', 'msg': '当前csid存在问题'}, {'csid': '1', 'page': '', 'statusCode': '200', 'errorCode': '400', 'msg': 'page为必填项'}, {'csid': 'q', 'page': 'r', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}, {'csid': 'z', 'page': 's', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}]
+[2022-07-16 13:24:16,597] YamlUtil.py -> getYamlData line:28 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 13:24:16,598] YamlUtil.py -> getYamlData line:28 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 13:24:16,599] YamlUtil.py -> getYamlData line:28 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 13:24:16,600] YamlUtil.py -> getYamlData line:28 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 13:24:16,601] YamlUtil.py -> getYamlData line:28 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 13:24:16,603] YamlUtil.py -> getYamlData line:28 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 13:24:16,604] YamlUtil.py -> getYamlData line:28 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 13:24:16,604] requestDataUtil.py -> getRequestData line:69 [INFO] 组装请求数据：[{'name': 'second_level', 'method': 'POST', 'url': 'http"//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '1', 'page': '1'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '200', 'msg': 'success'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http"//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '2', 'page': '2'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '200', 'msg': 'success'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http"//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '3', 'page': '0'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '当前page存在问题'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http"//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '100', 'page': '1'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '当前csid存在问题'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http"//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '1', 'page': ''}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': 'page为必填项'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http"//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': 'q', 'page': 'r'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http"//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': 'z', 'page': 's'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}}]
+[2022-07-16 13:24:48,921] CsvUtil.py -> getCsvData line:36 [INFO] 读取CSV格式化后内容：[{'csid': '1', 'page': '1', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '2', 'page': '2', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '3', 'page': '0', 'statusCode': '200', 'errorCode': '400', 'msg': '当前page存在问题'}, {'csid': '100', 'page': '1', 'statusCode': '200', 'errorCode': '400', 'msg': '当前csid存在问题'}, {'csid': '1', 'page': '', 'statusCode': '200', 'errorCode': '400', 'msg': 'page为必填项'}, {'csid': 'q', 'page': 'r', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}, {'csid': 'z', 'page': 's', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}]
+[2022-07-16 13:24:48,923] YamlUtil.py -> getYamlData line:28 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 13:24:48,924] YamlUtil.py -> getYamlData line:28 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 13:24:48,925] YamlUtil.py -> getYamlData line:28 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 13:24:48,926] YamlUtil.py -> getYamlData line:28 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 13:24:48,927] YamlUtil.py -> getYamlData line:28 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 13:24:48,928] YamlUtil.py -> getYamlData line:28 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 13:24:48,929] YamlUtil.py -> getYamlData line:28 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 13:24:48,930] requestDataUtil.py -> getRequestData line:69 [INFO] 组装请求数据：[{'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '1', 'page': '1'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '200', 'msg': 'success'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '2', 'page': '2'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '200', 'msg': 'success'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '3', 'page': '0'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '当前page存在问题'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '100', 'page': '1'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '当前csid存在问题'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '1', 'page': ''}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': 'page为必填项'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': 'q', 'page': 'r'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': 'z', 'page': 's'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}}]
+[2022-07-16 14:38:44,795] CsvUtil.py -> getCsvData line:38 [INFO] 读取CSV格式化后内容：[{'csid': '1', 'page': '1', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '2', 'page': '2', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '3', 'page': '0', 'statusCode': '200', 'errorCode': '400', 'msg': '当前page存在问题'}, {'csid': '100', 'page': '1', 'statusCode': '200', 'errorCode': '400', 'msg': '当前csid存在问题'}, {'csid': '1', 'page': '', 'statusCode': '200', 'errorCode': '400', 'msg': 'page为必填项'}, {'csid': 'q', 'page': 'r', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}, {'csid': 'z', 'page': 's', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}]
+[2022-07-16 14:38:44,797] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 14:38:44,798] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 14:38:44,799] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 14:38:44,801] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 14:38:44,802] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 14:38:44,803] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 14:38:44,805] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 14:38:44,805] requestDataUtil.py -> getRequestData line:71 [INFO] 组装请求数据：[{'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '1', 'page': '1'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '200', 'msg': 'success'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '2', 'page': '2'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '200', 'msg': 'success'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '3', 'page': '0'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '当前page存在问题'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '100', 'page': '1'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '当前csid存在问题'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '1', 'page': ''}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': 'page为必填项'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': 'q', 'page': 'r'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': 'z', 'page': 's'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}}]
+[2022-07-16 14:38:55,960] CsvUtil.py -> getCsvData line:38 [INFO] 读取CSV格式化后内容：[{'csid': '1', 'page': '1', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '2', 'page': '2', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '3', 'page': '0', 'statusCode': '200', 'errorCode': '400', 'msg': '当前page存在问题'}, {'csid': '100', 'page': '1', 'statusCode': '200', 'errorCode': '400', 'msg': '当前csid存在问题'}, {'csid': '1', 'page': '', 'statusCode': '200', 'errorCode': '400', 'msg': 'page为必填项'}, {'csid': 'q', 'page': 'r', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}, {'csid': 'z', 'page': 's', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}]
+[2022-07-16 14:38:55,963] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 14:38:55,965] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 14:38:55,967] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 14:38:55,968] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 14:38:55,969] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 14:38:55,971] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 14:38:55,972] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 14:38:55,972] requestDataUtil.py -> getRequestData line:71 [INFO] 组装请求数据：[{'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '1', 'page': '1'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '200', 'msg': 'success'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '2', 'page': '2'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '200', 'msg': 'success'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '3', 'page': '0'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '当前page存在问题'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '100', 'page': '1'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '当前csid存在问题'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '1', 'page': ''}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': 'page为必填项'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': 'q', 'page': 'r'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': 'z', 'page': 's'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}}]
+[2022-07-16 14:46:38,256] CsvUtil.py -> getCsvData line:38 [INFO] 读取CSV格式化后内容：[{'csid': '1', 'page': '1', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '2', 'page': '2', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '3', 'page': '0', 'statusCode': '200', 'errorCode': '400', 'msg': '当前page存在问题'}, {'csid': '100', 'page': '1', 'statusCode': '200', 'errorCode': '400', 'msg': '当前csid存在问题'}, {'csid': '1', 'page': '', 'statusCode': '200', 'errorCode': '400', 'msg': 'page为必填项'}, {'csid': 'q', 'page': 'r', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}, {'csid': 'z', 'page': 's', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}]
+[2022-07-16 14:46:38,258] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 14:46:38,259] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 14:46:38,260] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 14:46:38,262] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 14:46:38,263] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 14:46:38,264] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 14:46:38,265] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 14:46:38,265] requestDataUtil.py -> getRequestData line:71 [INFO] 组装请求数据：[{'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '1', 'page': '1'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '200', 'msg': 'success'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '2', 'page': '2'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '200', 'msg': 'success'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '3', 'page': '0'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '当前page存在问题'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '100', 'page': '1'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '当前csid存在问题'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '1', 'page': ''}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': 'page为必填项'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': 'q', 'page': 'r'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': 'z', 'page': 's'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}}]
+[2022-07-16 14:56:36,867] CsvUtil.py -> getCsvData line:38 [INFO] 读取CSV格式化后内容：[{'csid': '1', 'page': '1', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '2', 'page': '2', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '3', 'page': '0', 'statusCode': '200', 'errorCode': '400', 'msg': '当前page存在问题'}, {'csid': '100', 'page': '1', 'statusCode': '200', 'errorCode': '400', 'msg': '当前csid存在问题'}, {'csid': '1', 'page': '', 'statusCode': '200', 'errorCode': '400', 'msg': 'page为必填项'}, {'csid': 'q', 'page': 'r', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}, {'csid': 'z', 'page': 's', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}]
+[2022-07-16 14:56:36,871] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 14:56:36,873] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 14:56:36,875] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 14:56:36,876] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 14:56:36,877] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 14:56:36,879] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 14:56:36,880] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 14:56:36,880] requestDataUtil.py -> getRequestData line:71 [INFO] 组装请求数据：[{'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '1', 'page': '1'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '200', 'msg': 'success'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '2', 'page': '2'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '200', 'msg': 'success'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '3', 'page': '0'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '当前page存在问题'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '100', 'page': '1'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '当前csid存在问题'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '1', 'page': ''}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': 'page为必填项'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': 'q', 'page': 'r'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': 'z', 'page': 's'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}}]
+[2022-07-16 14:57:24,432] CsvUtil.py -> getCsvData line:38 [INFO] 读取CSV格式化后内容：[{'csid': '1', 'page': '1', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '2', 'page': '2', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '3', 'page': '0', 'statusCode': '200', 'errorCode': '400', 'msg': '当前page存在问题'}, {'csid': '100', 'page': '1', 'statusCode': '200', 'errorCode': '400', 'msg': '当前csid存在问题'}, {'csid': '1', 'page': '', 'statusCode': '200', 'errorCode': '400', 'msg': 'page为必填项'}, {'csid': 'q', 'page': 'r', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}, {'csid': 'z', 'page': 's', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}]
+[2022-07-16 14:57:24,434] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 14:57:24,435] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 14:57:24,436] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 14:57:24,437] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 14:57:24,438] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 14:57:24,439] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 14:57:24,440] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 14:57:24,441] requestDataUtil.py -> getRequestData line:71 [INFO] 组装请求数据：[{'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '1', 'page': '1'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '200', 'msg': 'success'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '2', 'page': '2'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '200', 'msg': 'success'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '3', 'page': '0'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '当前page存在问题'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '100', 'page': '1'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '当前csid存在问题'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '1', 'page': ''}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': 'page为必填项'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': 'q', 'page': 'r'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': 'z', 'page': 's'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}}]
+[2022-07-16 15:11:30,424] CsvUtil.py -> getCsvData line:38 [INFO] 读取CSV格式化后内容：[{'name: second_level': 'method: POST'}, {'name: second_level': 'url: /shop/mfindByPageCsid'}, {'name: second_level': 'headers: ~'}, {'name: second_level': 'params: ~'}, {'name: second_level': 'data:'}, {'name: second_level': '  csid: ~'}, {'name: second_level': '  page: ~'}, {'name: second_level': 'json: ~'}, {'name: second_level': 'validate:'}, {'name: second_level': '  statusCode: ~'}, {'name: second_level': '  errorCode: ~'}, {'name: second_level': '  msg: ~'}]
+[2022-07-16 15:11:30,425] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：csid,page,statusCode,errorCode,msg 1,1,200,200,success 2,2,200,200,success 3,0,200,400,当前page存在问题 100,1,200,400,当前csid存在问题 1,,200,400,page为必填项 q,r,200,400,参数类型错误 z,s,200,400,参数类型错误
+[2022-07-16 15:18:19,445] CsvUtil.py -> getCsvData line:38 [INFO] 读取CSV格式化后内容：[{'name: second_level': 'method: POST'}, {'name: second_level': 'url: /shop/mfindByPageCsid'}, {'name: second_level': 'headers: ~'}, {'name: second_level': 'params: ~'}, {'name: second_level': 'data:'}, {'name: second_level': '  csid: ~'}, {'name: second_level': '  page: ~'}, {'name: second_level': 'json: ~'}, {'name: second_level': 'validate:'}, {'name: second_level': '  statusCode: ~'}, {'name: second_level': '  errorCode: ~'}, {'name: second_level': '  msg: ~'}]
+[2022-07-16 15:18:19,446] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：csid,page,statusCode,errorCode,msg 1,1,200,200,success 2,2,200,200,success 3,0,200,400,当前page存在问题 100,1,200,400,当前csid存在问题 1,,200,400,page为必填项 q,r,200,400,参数类型错误 z,s,200,400,参数类型错误
+[2022-07-16 15:18:33,221] CsvUtil.py -> getCsvData line:38 [INFO] 读取CSV格式化后内容：[{'name: second_level': 'method: POST'}, {'name: second_level': 'url: /shop/mfindByPageCsid'}, {'name: second_level': 'headers: ~'}, {'name: second_level': 'params: ~'}, {'name: second_level': 'data:'}, {'name: second_level': '  csid: ~'}, {'name: second_level': '  page: ~'}, {'name: second_level': 'json: ~'}, {'name: second_level': 'validate:'}, {'name: second_level': '  statusCode: ~'}, {'name: second_level': '  errorCode: ~'}, {'name: second_level': '  msg: ~'}]
+[2022-07-16 15:18:33,222] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：csid,page,statusCode,errorCode,msg 1,1,200,200,success 2,2,200,200,success 3,0,200,400,当前page存在问题 100,1,200,400,当前csid存在问题 1,,200,400,page为必填项 q,r,200,400,参数类型错误 z,s,200,400,参数类型错误
+[2022-07-16 15:18:52,435] CsvUtil.py -> getCsvData line:38 [INFO] 读取CSV格式化后内容：[{'name: second_level': 'method: POST'}, {'name: second_level': 'url: /shop/mfindByPageCsid'}, {'name: second_level': 'headers: ~'}, {'name: second_level': 'params: ~'}, {'name: second_level': 'data:'}, {'name: second_level': '  csid: ~'}, {'name: second_level': '  page: ~'}, {'name: second_level': 'json: ~'}, {'name: second_level': 'validate:'}, {'name: second_level': '  statusCode: ~'}, {'name: second_level': '  errorCode: ~'}, {'name: second_level': '  msg: ~'}]
+[2022-07-16 15:18:52,437] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：csid,page,statusCode,errorCode,msg 1,1,200,200,success 2,2,200,200,success 3,0,200,400,当前page存在问题 100,1,200,400,当前csid存在问题 1,,200,400,page为必填项 q,r,200,400,参数类型错误 z,s,200,400,参数类型错误
+[2022-07-16 15:21:53,917] CsvUtil.py -> getCsvData line:38 [INFO] 读取CSV格式化后内容：[{'name: second_level': 'method: POST'}, {'name: second_level': 'url: /shop/mfindByPageCsid'}, {'name: second_level': 'headers: ~'}, {'name: second_level': 'params: ~'}, {'name: second_level': 'data:'}, {'name: second_level': '  csid: ~'}, {'name: second_level': '  page: ~'}, {'name: second_level': 'json: ~'}, {'name: second_level': 'validate:'}, {'name: second_level': '  statusCode: ~'}, {'name: second_level': '  errorCode: ~'}, {'name: second_level': '  msg: ~'}]
+[2022-07-16 15:21:53,919] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：csid,page,statusCode,errorCode,msg 1,1,200,200,success 2,2,200,200,success 3,0,200,400,当前page存在问题 100,1,200,400,当前csid存在问题 1,,200,400,page为必填项 q,r,200,400,参数类型错误 z,s,200,400,参数类型错误
+[2022-07-16 15:26:40,851] CsvUtil.py -> getCsvData line:38 [INFO] 读取CSV格式化后内容：[{'csid': '1', 'page': '1', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '2', 'page': '2', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '3', 'page': '0', 'statusCode': '200', 'errorCode': '400', 'msg': '当前page存在问题'}, {'csid': '100', 'page': '1', 'statusCode': '200', 'errorCode': '400', 'msg': '当前csid存在问题'}, {'csid': '1', 'page': '', 'statusCode': '200', 'errorCode': '400', 'msg': 'page为必填项'}, {'csid': 'q', 'page': 'r', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}, {'csid': 'z', 'page': 's', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}]
+[2022-07-16 15:26:40,855] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 15:26:40,856] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 15:26:40,857] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 15:26:40,858] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 15:26:40,859] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 15:26:40,860] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 15:26:40,861] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 15:26:40,861] requestDataUtil.py -> getRequestData line:72 [INFO] 组装请求数据：[{'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '1', 'page': '1'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '200', 'msg': 'success'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '2', 'page': '2'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '200', 'msg': 'success'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '3', 'page': '0'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '当前page存在问题'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '100', 'page': '1'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '当前csid存在问题'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '1', 'page': ''}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': 'page为必填项'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': 'q', 'page': 'r'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': 'z', 'page': 's'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}}]
+[2022-07-16 15:28:52,635] CsvUtil.py -> getCsvData line:38 [INFO] 读取CSV格式化后内容：[{'csid': '1', 'page': '1', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '2', 'page': '2', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '3', 'page': '0', 'statusCode': '200', 'errorCode': '400', 'msg': '当前page存在问题'}, {'csid': '100', 'page': '1', 'statusCode': '200', 'errorCode': '400', 'msg': '当前csid存在问题'}, {'csid': '1', 'page': '', 'statusCode': '200', 'errorCode': '400', 'msg': 'page为必填项'}, {'csid': 'q', 'page': 'r', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}, {'csid': 'z', 'page': 's', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}]
+[2022-07-16 15:28:52,639] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 15:28:52,640] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 15:28:52,641] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 15:28:52,642] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 15:28:52,643] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 15:28:52,645] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 15:28:52,646] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 15:28:52,646] requestDataUtil.py -> getRequestData line:72 [INFO] 组装请求数据：[{'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '1', 'page': '1'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '200', 'msg': 'success'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '2', 'page': '2'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '200', 'msg': 'success'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '3', 'page': '0'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '当前page存在问题'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '100', 'page': '1'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '当前csid存在问题'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '1', 'page': ''}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': 'page为必填项'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': 'q', 'page': 'r'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http//124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': 'z', 'page': 's'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}}]
+[2022-07-16 16:31:13,875] CsvUtil.py -> getCsvData line:38 [INFO] 读取CSV格式化后内容：[{'csid': '1', 'page': '1', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '2', 'page': '2', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '3', 'page': '0', 'statusCode': '200', 'errorCode': '400', 'msg': '当前page存在问题'}, {'csid': '100', 'page': '1', 'statusCode': '200', 'errorCode': '400', 'msg': '当前csid存在问题'}, {'csid': '1', 'page': '', 'statusCode': '200', 'errorCode': '400', 'msg': 'page为必填项'}, {'csid': 'q', 'page': 'r', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}, {'csid': 'z', 'page': 's', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}]
+[2022-07-16 16:31:13,878] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 16:31:13,879] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 16:31:13,880] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 16:31:13,882] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 16:31:13,883] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 16:31:13,884] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 16:31:13,885] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 16:31:13,885] requestDataUtil.py -> getRequestData line:72 [INFO] 组装请求数据：[{'name': 'second_level', 'method': 'POST', 'url': '124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '1', 'page': '1'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '200', 'msg': 'success'}}, {'name': 'second_level', 'method': 'POST', 'url': '124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '2', 'page': '2'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '200', 'msg': 'success'}}, {'name': 'second_level', 'method': 'POST', 'url': '124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '3', 'page': '0'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '当前page存在问题'}}, {'name': 'second_level', 'method': 'POST', 'url': '124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '100', 'page': '1'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '当前csid存在问题'}}, {'name': 'second_level', 'method': 'POST', 'url': '124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '1', 'page': ''}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': 'page为必填项'}}, {'name': 'second_level', 'method': 'POST', 'url': '124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': 'q', 'page': 'r'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}}, {'name': 'second_level', 'method': 'POST', 'url': '124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': 'z', 'page': 's'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}}]
+[2022-07-16 16:32:25,139] CsvUtil.py -> getCsvData line:38 [INFO] 读取CSV格式化后内容：[{'csid': '1', 'page': '1', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '2', 'page': '2', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '3', 'page': '0', 'statusCode': '200', 'errorCode': '400', 'msg': '当前page存在问题'}, {'csid': '100', 'page': '1', 'statusCode': '200', 'errorCode': '400', 'msg': '当前csid存在问题'}, {'csid': '1', 'page': '', 'statusCode': '200', 'errorCode': '400', 'msg': 'page为必填项'}, {'csid': 'q', 'page': 'r', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}, {'csid': 'z', 'page': 's', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}]
+[2022-07-16 16:32:25,142] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 16:32:25,143] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 16:32:25,144] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 16:32:25,145] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 16:32:25,146] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 16:32:25,147] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 16:32:25,149] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-16 16:32:25,149] requestDataUtil.py -> getRequestData line:72 [INFO] 组装请求数据：[{'name': 'second_level', 'method': 'POST', 'url': 'http://124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '1', 'page': '1'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '200', 'msg': 'success'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http://124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '2', 'page': '2'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '200', 'msg': 'success'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http://124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '3', 'page': '0'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '当前page存在问题'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http://124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '100', 'page': '1'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '当前csid存在问题'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http://124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '1', 'page': ''}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': 'page为必填项'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http://124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': 'q', 'page': 'r'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http://124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': 'z', 'page': 's'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}}]
+[2022-07-16 16:32:25,777] requestUtil.py -> __doPost line:48 [INFO] 请求路径：http://124.223.178.186:8080/shop/mfindByPageCsid
+[2022-07-16 16:32:25,778] requestUtil.py -> __doPost line:49 [INFO] 请求方式：POST
+[2022-07-16 16:32:25,778] requestUtil.py -> __doPost line:50 [INFO] 请求头：{'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '13', 'Content-Type': 'application/x-www-form-urlencoded'}
+[2022-07-16 16:32:25,778] requestUtil.py -> __doPost line:51 [INFO] 请求体：csid=1&page=1
+[2022-07-16 16:32:25,778] requestUtil.py -> __doPost line:52 [INFO] 响应状态码：500
+[2022-07-16 16:32:25,778] requestUtil.py -> __doPost line:53 [INFO] 响应头：{'Content-Type': 'text/html;charset=utf-8', 'Content-Language': 'en', 'Transfer-Encoding': 'chunked', 'Date': 'Sat, 16 Jul 2022 08:32:25 GMT', 'Connection': 'close'}
+[2022-07-16 16:32:25,778] requestUtil.py -> __doPost line:54 [INFO] 响应文本内容：<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Message</b> Request processing failed; nested exception is org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Access denied for user &#39;root&#39;@&#39;172.17.0.1&#39; (using password: YES))</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Access denied for user &#39;root&#39;@&#39;172.17.0.1&#39; (using password: YES))
+	org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)
+	org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+</pre><p><b>Root Cause</b></p><pre>org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Access denied for user &#39;root&#39;@&#39;172.17.0.1&#39; (using password: YES))
+	org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:245)
+	org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:373)
+	org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:463)
+	org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:276)
+	org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	com.sun.proxy.$Proxy17.findByPageCsid(Unknown Source)
+	com.baotao.shop.my.controller.MyProductController.findByPageCsid(MyProductController.java:76)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+</pre><p><b>Root Cause</b></p><pre>org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Access denied for user &#39;root&#39;@&#39;172.17.0.1&#39; (using password: YES))
+	org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1225)
+	org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:204)
+	org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:373)
+	org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:463)
+	org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:276)
+	org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	com.sun.proxy.$Proxy17.findByPageCsid(Unknown Source)
+	com.baotao.shop.my.controller.MyProductController.findByPageCsid(MyProductController.java:76)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+</pre><p><b>Root Cause</b></p><pre>java.sql.SQLException: Access denied for user &#39;root&#39;@&#39;172.17.0.1&#39; (using password: YES)
+	com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3515)
+	com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3447)
+	com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:911)
+	com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3953)
+	com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1276)
+	com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2048)
+	com.mysql.jdbc.ConnectionImpl.&lt;init&gt;(ConnectionImpl.java:723)
+	com.mysql.jdbc.JDBC4Connection.&lt;init&gt;(JDBC4Connection.java:46)
+	sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:294)
+	org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1247)
+	org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1221)
+	org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:204)
+	org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:373)
+	org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:463)
+	org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:276)
+	org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	com.sun.proxy.$Proxy17.findByPageCsid(Unknown Source)
+	com.baotao.shop.my.controller.MyProductController.findByPageCsid(MyProductController.java:76)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.64</h3></body></html>
+[2022-07-16 16:32:25,974] requestUtil.py -> __doPost line:48 [INFO] 请求路径：http://124.223.178.186:8080/shop/mfindByPageCsid
+[2022-07-16 16:32:25,974] requestUtil.py -> __doPost line:49 [INFO] 请求方式：POST
+[2022-07-16 16:32:25,974] requestUtil.py -> __doPost line:50 [INFO] 请求头：{'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '13', 'Content-Type': 'application/x-www-form-urlencoded'}
+[2022-07-16 16:32:25,974] requestUtil.py -> __doPost line:51 [INFO] 请求体：csid=2&page=2
+[2022-07-16 16:32:25,974] requestUtil.py -> __doPost line:52 [INFO] 响应状态码：500
+[2022-07-16 16:32:25,975] requestUtil.py -> __doPost line:53 [INFO] 响应头：{'Content-Type': 'text/html;charset=utf-8', 'Content-Language': 'en', 'Transfer-Encoding': 'chunked', 'Date': 'Sat, 16 Jul 2022 08:32:25 GMT', 'Connection': 'close'}
+[2022-07-16 16:32:25,975] requestUtil.py -> __doPost line:54 [INFO] 响应文本内容：<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Message</b> Request processing failed; nested exception is org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Access denied for user &#39;root&#39;@&#39;172.17.0.1&#39; (using password: YES))</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Access denied for user &#39;root&#39;@&#39;172.17.0.1&#39; (using password: YES))
+	org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)
+	org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+</pre><p><b>Root Cause</b></p><pre>org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Access denied for user &#39;root&#39;@&#39;172.17.0.1&#39; (using password: YES))
+	org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:245)
+	org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:373)
+	org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:463)
+	org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:276)
+	org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	com.sun.proxy.$Proxy17.findByPageCsid(Unknown Source)
+	com.baotao.shop.my.controller.MyProductController.findByPageCsid(MyProductController.java:76)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+</pre><p><b>Root Cause</b></p><pre>org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Access denied for user &#39;root&#39;@&#39;172.17.0.1&#39; (using password: YES))
+	org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1225)
+	org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:204)
+	org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:373)
+	org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:463)
+	org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:276)
+	org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	com.sun.proxy.$Proxy17.findByPageCsid(Unknown Source)
+	com.baotao.shop.my.controller.MyProductController.findByPageCsid(MyProductController.java:76)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+</pre><p><b>Root Cause</b></p><pre>java.sql.SQLException: Access denied for user &#39;root&#39;@&#39;172.17.0.1&#39; (using password: YES)
+	com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3515)
+	com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3447)
+	com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:911)
+	com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3953)
+	com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1276)
+	com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2048)
+	com.mysql.jdbc.ConnectionImpl.&lt;init&gt;(ConnectionImpl.java:723)
+	com.mysql.jdbc.JDBC4Connection.&lt;init&gt;(JDBC4Connection.java:46)
+	sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:294)
+	org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1247)
+	org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1221)
+	org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:204)
+	org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:373)
+	org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:463)
+	org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:276)
+	org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	com.sun.proxy.$Proxy17.findByPageCsid(Unknown Source)
+	com.baotao.shop.my.controller.MyProductController.findByPageCsid(MyProductController.java:76)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.64</h3></body></html>
+[2022-07-16 16:32:26,133] requestUtil.py -> __doPost line:48 [INFO] 请求路径：http://124.223.178.186:8080/shop/mfindByPageCsid
+[2022-07-16 16:32:26,133] requestUtil.py -> __doPost line:49 [INFO] 请求方式：POST
+[2022-07-16 16:32:26,133] requestUtil.py -> __doPost line:50 [INFO] 请求头：{'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '13', 'Content-Type': 'application/x-www-form-urlencoded'}
+[2022-07-16 16:32:26,133] requestUtil.py -> __doPost line:51 [INFO] 请求体：csid=3&page=0
+[2022-07-16 16:32:26,133] requestUtil.py -> __doPost line:52 [INFO] 响应状态码：500
+[2022-07-16 16:32:26,133] requestUtil.py -> __doPost line:53 [INFO] 响应头：{'Content-Type': 'text/html;charset=utf-8', 'Content-Language': 'en', 'Transfer-Encoding': 'chunked', 'Date': 'Sat, 16 Jul 2022 08:32:25 GMT', 'Connection': 'close'}
+[2022-07-16 16:32:26,133] requestUtil.py -> __doPost line:54 [INFO] 响应文本内容：<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Message</b> Request processing failed; nested exception is org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Access denied for user &#39;root&#39;@&#39;172.17.0.1&#39; (using password: YES))</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Access denied for user &#39;root&#39;@&#39;172.17.0.1&#39; (using password: YES))
+	org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)
+	org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+</pre><p><b>Root Cause</b></p><pre>org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Access denied for user &#39;root&#39;@&#39;172.17.0.1&#39; (using password: YES))
+	org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:245)
+	org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:373)
+	org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:463)
+	org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:276)
+	org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	com.sun.proxy.$Proxy17.findByPageCsid(Unknown Source)
+	com.baotao.shop.my.controller.MyProductController.findByPageCsid(MyProductController.java:76)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+</pre><p><b>Root Cause</b></p><pre>org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Access denied for user &#39;root&#39;@&#39;172.17.0.1&#39; (using password: YES))
+	org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1225)
+	org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:204)
+	org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:373)
+	org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:463)
+	org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:276)
+	org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	com.sun.proxy.$Proxy17.findByPageCsid(Unknown Source)
+	com.baotao.shop.my.controller.MyProductController.findByPageCsid(MyProductController.java:76)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+</pre><p><b>Root Cause</b></p><pre>java.sql.SQLException: Access denied for user &#39;root&#39;@&#39;172.17.0.1&#39; (using password: YES)
+	com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3515)
+	com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3447)
+	com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:911)
+	com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3953)
+	com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1276)
+	com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2048)
+	com.mysql.jdbc.ConnectionImpl.&lt;init&gt;(ConnectionImpl.java:723)
+	com.mysql.jdbc.JDBC4Connection.&lt;init&gt;(JDBC4Connection.java:46)
+	sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:294)
+	org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1247)
+	org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1221)
+	org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:204)
+	org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:373)
+	org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:463)
+	org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:276)
+	org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	com.sun.proxy.$Proxy17.findByPageCsid(Unknown Source)
+	com.baotao.shop.my.controller.MyProductController.findByPageCsid(MyProductController.java:76)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.64</h3></body></html>
+[2022-07-16 16:32:26,327] requestUtil.py -> __doPost line:48 [INFO] 请求路径：http://124.223.178.186:8080/shop/mfindByPageCsid
+[2022-07-16 16:32:26,327] requestUtil.py -> __doPost line:49 [INFO] 请求方式：POST
+[2022-07-16 16:32:26,327] requestUtil.py -> __doPost line:50 [INFO] 请求头：{'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '15', 'Content-Type': 'application/x-www-form-urlencoded'}
+[2022-07-16 16:32:26,327] requestUtil.py -> __doPost line:51 [INFO] 请求体：csid=100&page=1
+[2022-07-16 16:32:26,327] requestUtil.py -> __doPost line:52 [INFO] 响应状态码：500
+[2022-07-16 16:32:26,327] requestUtil.py -> __doPost line:53 [INFO] 响应头：{'Content-Type': 'text/html;charset=utf-8', 'Content-Language': 'en', 'Transfer-Encoding': 'chunked', 'Date': 'Sat, 16 Jul 2022 08:32:25 GMT', 'Connection': 'close'}
+[2022-07-16 16:32:26,327] requestUtil.py -> __doPost line:54 [INFO] 响应文本内容：<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Message</b> Request processing failed; nested exception is org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Access denied for user &#39;root&#39;@&#39;172.17.0.1&#39; (using password: YES))</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Access denied for user &#39;root&#39;@&#39;172.17.0.1&#39; (using password: YES))
+	org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)
+	org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+</pre><p><b>Root Cause</b></p><pre>org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Access denied for user &#39;root&#39;@&#39;172.17.0.1&#39; (using password: YES))
+	org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:245)
+	org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:373)
+	org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:463)
+	org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:276)
+	org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	com.sun.proxy.$Proxy17.findByPageCsid(Unknown Source)
+	com.baotao.shop.my.controller.MyProductController.findByPageCsid(MyProductController.java:76)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+</pre><p><b>Root Cause</b></p><pre>org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Access denied for user &#39;root&#39;@&#39;172.17.0.1&#39; (using password: YES))
+	org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1225)
+	org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:204)
+	org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:373)
+	org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:463)
+	org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:276)
+	org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	com.sun.proxy.$Proxy17.findByPageCsid(Unknown Source)
+	com.baotao.shop.my.controller.MyProductController.findByPageCsid(MyProductController.java:76)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+</pre><p><b>Root Cause</b></p><pre>java.sql.SQLException: Access denied for user &#39;root&#39;@&#39;172.17.0.1&#39; (using password: YES)
+	com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3515)
+	com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3447)
+	com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:911)
+	com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3953)
+	com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1276)
+	com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2048)
+	com.mysql.jdbc.ConnectionImpl.&lt;init&gt;(ConnectionImpl.java:723)
+	com.mysql.jdbc.JDBC4Connection.&lt;init&gt;(JDBC4Connection.java:46)
+	sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:294)
+	org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1247)
+	org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1221)
+	org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:204)
+	org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:373)
+	org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:463)
+	org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:276)
+	org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	com.sun.proxy.$Proxy17.findByPageCsid(Unknown Source)
+	com.baotao.shop.my.controller.MyProductController.findByPageCsid(MyProductController.java:76)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.64</h3></body></html>
+[2022-07-16 16:32:26,423] requestUtil.py -> __doPost line:48 [INFO] 请求路径：http://124.223.178.186:8080/shop/mfindByPageCsid
+[2022-07-16 16:32:26,424] requestUtil.py -> __doPost line:49 [INFO] 请求方式：POST
+[2022-07-16 16:32:26,424] requestUtil.py -> __doPost line:50 [INFO] 请求头：{'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '12', 'Content-Type': 'application/x-www-form-urlencoded'}
+[2022-07-16 16:32:26,424] requestUtil.py -> __doPost line:51 [INFO] 请求体：csid=1&page=
+[2022-07-16 16:32:26,424] requestUtil.py -> __doPost line:52 [INFO] 响应状态码：400
+[2022-07-16 16:32:26,424] requestUtil.py -> __doPost line:53 [INFO] 响应头：{'Content-Type': 'text/html;charset=utf-8', 'Content-Language': 'en', 'Content-Length': '762', 'Date': 'Sat, 16 Jul 2022 08:32:25 GMT', 'Connection': 'close'}
+[2022-07-16 16:32:26,424] requestUtil.py -> __doPost line:54 [INFO] 响应文本内容：<!doctype html><html lang="en"><head><title>HTTP Status 400 – Bad Request</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400 – Bad Request</h1><hr class="line" /><p><b>Type</b> Status Report</p><p><b>Description</b> The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).</p><hr class="line" /><h3>Apache Tomcat/8.5.64</h3></body></html>
+[2022-07-16 16:32:26,520] requestUtil.py -> __doPost line:48 [INFO] 请求路径：http://124.223.178.186:8080/shop/mfindByPageCsid
+[2022-07-16 16:32:26,521] requestUtil.py -> __doPost line:49 [INFO] 请求方式：POST
+[2022-07-16 16:32:26,521] requestUtil.py -> __doPost line:50 [INFO] 请求头：{'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '13', 'Content-Type': 'application/x-www-form-urlencoded'}
+[2022-07-16 16:32:26,521] requestUtil.py -> __doPost line:51 [INFO] 请求体：csid=q&page=r
+[2022-07-16 16:32:26,521] requestUtil.py -> __doPost line:52 [INFO] 响应状态码：400
+[2022-07-16 16:32:26,521] requestUtil.py -> __doPost line:53 [INFO] 响应头：{'Content-Type': 'text/html;charset=utf-8', 'Content-Language': 'en', 'Content-Length': '762', 'Date': 'Sat, 16 Jul 2022 08:32:25 GMT', 'Connection': 'close'}
+[2022-07-16 16:32:26,521] requestUtil.py -> __doPost line:54 [INFO] 响应文本内容：<!doctype html><html lang="en"><head><title>HTTP Status 400 – Bad Request</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400 – Bad Request</h1><hr class="line" /><p><b>Type</b> Status Report</p><p><b>Description</b> The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).</p><hr class="line" /><h3>Apache Tomcat/8.5.64</h3></body></html>
+[2022-07-16 16:32:26,614] requestUtil.py -> __doPost line:48 [INFO] 请求路径：http://124.223.178.186:8080/shop/mfindByPageCsid
+[2022-07-16 16:32:26,615] requestUtil.py -> __doPost line:49 [INFO] 请求方式：POST
+[2022-07-16 16:32:26,615] requestUtil.py -> __doPost line:50 [INFO] 请求头：{'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '13', 'Content-Type': 'application/x-www-form-urlencoded'}
+[2022-07-16 16:32:26,615] requestUtil.py -> __doPost line:51 [INFO] 请求体：csid=z&page=s
+[2022-07-16 16:32:26,615] requestUtil.py -> __doPost line:52 [INFO] 响应状态码：400
+[2022-07-16 16:32:26,615] requestUtil.py -> __doPost line:53 [INFO] 响应头：{'Content-Type': 'text/html;charset=utf-8', 'Content-Language': 'en', 'Content-Length': '762', 'Date': 'Sat, 16 Jul 2022 08:32:25 GMT', 'Connection': 'close'}
+[2022-07-16 16:32:26,615] requestUtil.py -> __doPost line:54 [INFO] 响应文本内容：<!doctype html><html lang="en"><head><title>HTTP Status 400 – Bad Request</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400 – Bad Request</h1><hr class="line" /><p><b>Type</b> Status Report</p><p><b>Description</b> The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).</p><hr class="line" /><h3>Apache Tomcat/8.5.64</h3></body></html>
