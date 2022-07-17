@@ -15,6 +15,9 @@
 **config**
 `配置文件`
 
+        config： 文件目录配置文件
+        scene: 场景yml文件夹
+
 **data**
 `数据文件`
 
@@ -30,17 +33,31 @@
 **run**
 `pytest运行`
 
+        1、执行main函数，进行pytest单元测试
+        2、执行allure，生成报告
+            allure generate ./json -o ./reports --clean
+        3、启动allure服务
+            allure open reports --host 127.0.0.1 --port 8800
+            输入地址 查看报告
+
+        -s: 显示程序中的print / logging 输出
+        -V：丰富信息模式，输出更详细的用例执行信息
+        -q: 安静模式，不输出环境信息
+        -k: 关键字匹配，用and区分：匹配范围（文件名、类名、函数名）
+
 **test_cases**
 `测试用例`
 
 **utils**
 `工具类`
 
-****
+        log: log日志工具类
+        CsvUtil: csv工具类
+        requestDataUtil: 获取请求数据工具类
+        requestUtil: 发送网络请求工具类
+        YamlUtil: 读取yml配置文件工具类
+        SceneRquestUtil: 场景工具类
 
-    ``
-
-****
-
-    ``
     
+
+
