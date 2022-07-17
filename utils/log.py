@@ -6,14 +6,18 @@
 """
 
 import logging
+
 from config import config
 import os
+import datetime
+
 
 # 设置日志打印模块
 class Logger(logging.Logger):
     '''
     日志封装工具类
     '''
+
     # 初始化函数 cmd_level控制台打印时日志默认级别, file_level写入日志文件默认级别
     def __init__(self, name='Dash', cmd_level=logging.DEBUG, file_level=logging.DEBUG):
         # 调用父类初始化函数
@@ -23,8 +27,15 @@ class Logger(logging.Logger):
             # 日志输出格式化
             logs_format = logging.Formatter(
                 '[%(asctime)s] %(filename)s -> %(funcName)s line:%(lineno)d [%(levelname)s] %(message)s')
+
+            # 按照当前时间输出日志文件名格式 年-月-日 时:分:秒
+            # log_name = str(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')) + '.log'
+
+            # 按照当前时间输出日志文件名格式 年-月-日
+            log_name = str(datetime.datetime.now().strftime('%Y-%m-%d')) + '.log'
+
             # 日志文件路径及名称
-            self.log_file = os.path.join(config.logPath + 'runlog.txt')
+            self.log_file = os.path.join(config.logPath + log_name)
 
             # 设置控制台输出
             terminal = logging.StreamHandler()
@@ -34,9 +45,11 @@ class Logger(logging.Logger):
             file_output = logging.FileHandler(self.log_file, 'a', encoding='utf-8')
             file_output.setFormatter(logs_format)  # 设置文件输出格式
             file_output.setLevel(file_level)  # 设置文件输出的默认级别
+
             # 添加日志输出方式
             self.addHandler(terminal)
             self.addHandler(file_output)
+
         except Exception as e:
             raise e
 
