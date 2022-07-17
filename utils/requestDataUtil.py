@@ -72,7 +72,7 @@ class RequestDataUtil:
         logger.info('组装请求数据：' + str(requestDataList))
         return requestDataList
 
-
-if __name__ == '__main__':
-    rdu = RequestDataUtil('second_level')
-    rdu.getRequestData()
+#
+# if __name__ == '__main__':
+#     rdu = RequestDataUtil('second_level')
+#     rdu.getRequestData()

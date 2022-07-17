@@ -1,0 +1,45 @@
+- name: mcheckImg
+  method: GET
+  url: /shop/mcheckImg
+  headers: ~
+  params: ~
+  data: ~
+  json: ~
+  validate:
+    statusCode: 200
+    errorCode: 200
+    msg: success
+  extract:
+    body:
+      code: data.code
+    headers:
+      cookie: Set-Cookie
+  depend: ~
+    headers: ~
+    params: ~
+    data: ~
+    json: ~
+
+
+- name: mregist
+  method: POST
+  url: /shop/mcheckImg
+  headers: ~
+  params: ~
+  data:
+    username: wanghu
+    password: 123
+    email: wanghu@163.com
+  json: ~
+  validate:
+    statusCode: 200
+    errorCode: 200
+    msg: 恭喜您，注册成功
+  extract: ~
+  depend:
+    headers:
+      Cookie: cookie
+    params: ~
+    data:
+      verifyCode: code
+    json: ~
