@@ -17,3 +17,4 @@ allurejsonPath = os.path.join(currentPath, 'json/')  # allure报告所需json数
 
 
 # print(testcasePath)
+# print(configPath + 'scene/')

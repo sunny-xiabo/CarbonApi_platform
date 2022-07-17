@@ -15,21 +15,16 @@
     headers:
       cookie: Set-Cookie
   depend: ~
-    headers: ~
-    params: ~
-    data: ~
-    json: ~
-
 
 - name: mregist
   method: POST
-  url: /shop/mcheckImg
+  url: /shop/mregist
   headers: ~
   params: ~
   data:
-    username: wanghu
-    password: 123
-    email: wanghu@163.com
+    username: sjhfkjas
+    password: 123372
+    email: sjhfkjas@163.com
   json: ~
   validate:
     statusCode: 200

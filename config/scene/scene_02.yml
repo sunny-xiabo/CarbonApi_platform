@@ -1,0 +1,40 @@
+- name: mcheckImg
+  method: GET
+  url: /shop/mcheckImg
+  headers: ~
+  params: ~
+  data: ~
+  json: ~
+  validate:
+    statusCode: 200
+    errorCode: 200
+    msg: success
+  extract:
+    body:
+      code: data.code
+    headers:
+      cookie: Set-Cookie
+  depend: ~
+
+- name: mregist
+  method: POST
+  url: /shop/mregist
+  headers: ~
+  params: ~
+  data:
+    username: zhaoliu
+    password: 123
+    email: zhaoliu@163.com
+  json: ~
+  validate:
+    statusCode: 200
+    errorCode: 400
+    msg: 用户名已存在
+  extract: ~
+  depend:
+    headers:
+      Cookie: cookie
+    params: ~
+    data:
+      verifyCode: code
+    json: ~
