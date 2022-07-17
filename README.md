@@ -18,6 +18,48 @@
         config： 文件目录配置文件
         scene: 场景yml文件夹
 
+        #yml只是每个接口所需的配置文件,具体数据需要去csv中读取,yml文件名与csv数据文件名保持一致
+        #内部用到所有的参数键名称与接口相关参数名保持一致
+        #其中没有的值使用~表示None
+        # csv中第一行数据写与参数名保持一致的名称,第二行写接口验证通过性的数据
+        #csv中不写依赖的字段及字段值
+
+        单接口yml模板：
+            name: *
+            method: *
+            url: *
+            headers: ~
+            params: ~
+            data: ~
+            json: ~
+            validate:
+             statusCode: ~
+             errorCode: ~
+             msg: ~
+
+        场景接口（多接口）yml模板
+            - name: *
+              method: *
+              url: *
+              headers: ~
+              params: ~
+              data: ~
+              json: ~
+              validate:
+               statusCode: ~
+               errorCode: ~
+               msg: ~
+              extract:
+                body: ~
+                headers: ~
+              depend: ~
+                headers: ~
+                params: ~
+                data: ~
+                json: ~
+
+
+
 **data**
 `数据文件`
 
