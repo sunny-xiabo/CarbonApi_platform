@@ -1,0 +1,1501 @@
+[2022-07-18 10:18:31,292] CsvUtil.py -> getCsvData line:38 [INFO] 读取CSV格式化后内容：[{'username': 'wangwu', 'password': '123', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'username': 'zhaoliu', 'password': '123', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'username': 'yyyy', 'password': '1234', 'statusCode': '200', 'errorCode': '400', 'msg': '登录失败，用户名或者密码错误'}, {'username': 'xxxx', 'password': '12345', 'statusCode': '200', 'errorCode': '400', 'msg': '用户名不存在'}]
+[2022-07-18 10:18:31,296] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'login', 'method': 'POST', 'url': '/shop/mlogin', 'headers': None, 'params': None, 'data': {'username': None, 'password': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-18 10:18:31,300] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'login', 'method': 'POST', 'url': '/shop/mlogin', 'headers': None, 'params': None, 'data': {'username': None, 'password': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-18 10:18:31,303] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'login', 'method': 'POST', 'url': '/shop/mlogin', 'headers': None, 'params': None, 'data': {'username': None, 'password': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-18 10:18:31,307] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'login', 'method': 'POST', 'url': '/shop/mlogin', 'headers': None, 'params': None, 'data': {'username': None, 'password': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-18 10:18:31,307] requestDataUtil.py -> getRequestData line:72 [INFO] 组装请求数据：[{'name': 'login', 'method': 'POST', 'url': 'http://124.223.178.186:8080/shop/mlogin', 'headers': None, 'params': None, 'data': {'username': 'wangwu', 'password': '123'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '200', 'msg': 'success'}}, {'name': 'login', 'method': 'POST', 'url': 'http://124.223.178.186:8080/shop/mlogin', 'headers': None, 'params': None, 'data': {'username': 'zhaoliu', 'password': '123'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '200', 'msg': 'success'}}, {'name': 'login', 'method': 'POST', 'url': 'http://124.223.178.186:8080/shop/mlogin', 'headers': None, 'params': None, 'data': {'username': 'yyyy', 'password': '1234'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '登录失败，用户名或者密码错误'}}, {'name': 'login', 'method': 'POST', 'url': 'http://124.223.178.186:8080/shop/mlogin', 'headers': None, 'params': None, 'data': {'username': 'xxxx', 'password': '12345'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '用户名不存在'}}]
+[2022-07-18 10:18:31,322] CsvUtil.py -> getCsvData line:38 [INFO] 读取CSV格式化后内容：[{'csid': '1', 'page': '1', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '2', 'page': '2', 'statusCode': '200', 'errorCode': '200', 'msg': 'success'}, {'csid': '3', 'page': '0', 'statusCode': '200', 'errorCode': '400', 'msg': '当前page存在问题'}, {'csid': 'q', 'page': 'r', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}, {'csid': 'z', 'page': 's', 'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}]
+[2022-07-18 10:18:31,326] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-18 10:18:31,330] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-18 10:18:31,334] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-18 10:18:31,337] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-18 10:18:31,341] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：{'name': 'second_level', 'method': 'POST', 'url': '/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': None, 'page': None}, 'json': None, 'validate': {'statusCode': None, 'errorCode': None, 'msg': None}}
+[2022-07-18 10:18:31,341] requestDataUtil.py -> getRequestData line:72 [INFO] 组装请求数据：[{'name': 'second_level', 'method': 'POST', 'url': 'http://124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '1', 'page': '1'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '200', 'msg': 'success'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http://124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '2', 'page': '2'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '200', 'msg': 'success'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http://124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': '3', 'page': '0'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '当前page存在问题'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http://124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': 'q', 'page': 'r'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}}, {'name': 'second_level', 'method': 'POST', 'url': 'http://124.223.178.186:8080/shop/mfindByPageCsid', 'headers': None, 'params': None, 'data': {'csid': 'z', 'page': 's'}, 'json': None, 'validate': {'statusCode': '200', 'errorCode': '400', 'msg': '参数类型错误'}}]
+[2022-07-18 10:18:31,604] requestUtil.py -> __doPost line:48 [INFO] 请求路径：http://124.223.178.186:8080/shop/mlogin
+[2022-07-18 10:18:31,605] requestUtil.py -> __doPost line:49 [INFO] 请求方式：POST
+[2022-07-18 10:18:31,605] requestUtil.py -> __doPost line:50 [INFO] 请求头：{'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '28', 'Content-Type': 'application/x-www-form-urlencoded'}
+[2022-07-18 10:18:31,605] requestUtil.py -> __doPost line:51 [INFO] 请求体：username=wangwu&password=123
+[2022-07-18 10:18:31,605] requestUtil.py -> __doPost line:52 [INFO] 响应状态码：500
+[2022-07-18 10:18:31,605] requestUtil.py -> __doPost line:53 [INFO] 响应头：{'Set-Cookie': 'JSESSIONID=DDAA82375491700896A22B54C58B8186; Path=/shop; HttpOnly', 'Content-Type': 'text/html;charset=utf-8', 'Content-Language': 'en', 'Transfer-Encoding': 'chunked', 'Date': 'Mon, 18 Jul 2022 02:18:31 GMT', 'Connection': 'close'}
+[2022-07-18 10:18:31,605] requestUtil.py -> __doPost line:54 [INFO] 响应文本内容：<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Message</b> Request processing failed; nested exception is org.springframework.dao.DataAccessResourceFailureException: </p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.dao.DataAccessResourceFailureException: 
+### Error querying database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception&#47;error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+MESSAGE: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2548)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2477)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1422)
+	at com.mysql.jdbc.DatabaseMetaData.getUserName(DatabaseMetaData.java:6591)
+	at org.apache.commons.dbcp.DelegatingConnection.toString(DelegatingConnection.java:104)
+	at org.apache.commons.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.toString(PoolingDataSource.java:344)
+	at java.lang.String.valueOf(String.java:2994)
+	at java.lang.StringBuilder.append(StringBuilder.java:136)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:86)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:279)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:72)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:59)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:267)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:137)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:96)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:77)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:108)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:102)
+	at sun.reflect.GeneratedMethodAccessor96.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:358)
+	at com.sun.proxy.$Proxy11.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:198)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:119)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:63)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52)
+	at com.sun.proxy.$Proxy12.selectByExample(Unknown Source)
+	at com.baotao.shop.user.service.UserServiceImpl.login(UserServiceImpl.java:78)
+	at sun.reflect.GeneratedMethodAccessor112.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:317)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	at com.sun.proxy.$Proxy15.login(Unknown Source)
+	at com.baotao.shop.my.controller.MyUserController.login(MyUserController.java:77)
+	at sun.reflect.GeneratedMethodAccessor111.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1629)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 91 more
+
+
+** END NESTED EXCEPTION **
+
+
+### The error may exist in com&#47;baotao&#47;shop&#47;user&#47;mapper&#47;UserMapper.xml
+### The error may involve com.baotao.shop.user.mapper.UserMapper.selectByExample
+### The error occurred while executing a query
+### SQL: select                 uid, username, password, email, sex, name, addr, phone, state, code         from user                    WHERE (  username = ?                                                                and password = ?                                                                and state = ? )
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception&#47;error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+MESSAGE: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2548)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2477)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1422)
+	at com.mysql.jdbc.DatabaseMetaData.getUserName(DatabaseMetaData.java:6591)
+	at org.apache.commons.dbcp.DelegatingConnection.toString(DelegatingConnection.java:104)
+	at org.apache.commons.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.toString(PoolingDataSource.java:344)
+	at java.lang.String.valueOf(String.java:2994)
+	at java.lang.StringBuilder.append(StringBuilder.java:136)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:86)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:279)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:72)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:59)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:267)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:137)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:96)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:77)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:108)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:102)
+	at sun.reflect.GeneratedMethodAccessor96.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:358)
+	at com.sun.proxy.$Proxy11.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:198)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:119)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:63)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52)
+	at com.sun.proxy.$Proxy12.selectByExample(Unknown Source)
+	at com.baotao.shop.user.service.UserServiceImpl.login(UserServiceImpl.java:78)
+	at sun.reflect.GeneratedMethodAccessor112.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:317)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	at com.sun.proxy.$Proxy15.login(Unknown Source)
+	at com.baotao.shop.my.controller.MyUserController.login(MyUserController.java:77)
+	at sun.reflect.GeneratedMethodAccessor111.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1629)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 91 more
+
+
+** END NESTED EXCEPTION **
+
+
+; SQL []; No operations allowed after connection closed.Connection was implicitly closed due to underlying exception&#47;error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+MESSAGE: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2548)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2477)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1422)
+	at com.mysql.jdbc.DatabaseMetaData.getUserName(DatabaseMetaData.java:6591)
+	at org.apache.commons.dbcp.DelegatingConnection.toString(DelegatingConnection.java:104)
+	at org.apache.commons.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.toString(PoolingDataSource.java:344)
+	at java.lang.String.valueOf(String.java:2994)
+	at java.lang.StringBuilder.append(StringBuilder.java:136)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:86)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:279)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:72)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:59)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:267)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:137)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:96)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:77)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:108)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:102)
+	at sun.reflect.GeneratedMethodAccessor96.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:358)
+	at com.sun.proxy.$Proxy11.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:198)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:119)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:63)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52)
+	at com.sun.proxy.$Proxy12.selectByExample(Unknown Source)
+	at com.baotao.shop.user.service.UserServiceImpl.login(UserServiceImpl.java:78)
+	at sun.reflect.GeneratedMethodAccessor112.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:317)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	at com.sun.proxy.$Proxy15.login(Unknown Source)
+	at com.baotao.shop.my.controller.MyUserController.login(MyUserController.java:77)
+	at sun.reflect.GeneratedMethodAccessor111.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1629)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 91 more
+
+
+** END NESTED EXCEPTION **
+
+; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception&#47;error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+MESSAGE: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2548)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2477)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1422)
+	at com.mysql.jdbc.DatabaseMetaData.getUserName(DatabaseMetaData.java:6591)
+	at org.apache.commons.dbcp.DelegatingConnection.toString(DelegatingConnection.java:104)
+	at org.apache.commons.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.toString(PoolingDataSource.java:344)
+	at java.lang.String.valueOf(String.java:2994)
+	at java.lang.StringBuilder.append(StringBuilder.java:136)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:86)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:279)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:72)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:59)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:267)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:137)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:96)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:77)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:108)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:102)
+	at sun.reflect.GeneratedMethodAccessor96.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:358)
+	at com.sun.proxy.$Proxy11.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:198)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:119)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:63)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52)
+	at com.sun.proxy.$Proxy12.selectByExample(Unknown Source)
+	at com.baotao.shop.user.service.UserServiceImpl.login(UserServiceImpl.java:78)
+	at sun.reflect.GeneratedMethodAccessor112.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:317)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	at com.sun.proxy.$Proxy15.login(Unknown Source)
+	at com.baotao.shop.my.controller.MyUserController.login(MyUserController.java:77)
+	at sun.reflect.GeneratedMethodAccessor111.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1629)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 91 more
+
+
+** END NESTED EXCEPTION **
+
+
+	org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)
+	org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+</pre><p><b>Root Cause</b></p><pre>org.springframework.dao.DataAccessResourceFailureException: 
+### Error querying database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception&#47;error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+MESSAGE: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2548)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2477)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1422)
+	at com.mysql.jdbc.DatabaseMetaData.getUserName(DatabaseMetaData.java:6591)
+	at org.apache.commons.dbcp.DelegatingConnection.toString(DelegatingConnection.java:104)
+	at org.apache.commons.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.toString(PoolingDataSource.java:344)
+	at java.lang.String.valueOf(String.java:2994)
+	at java.lang.StringBuilder.append(StringBuilder.java:136)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:86)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:279)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:72)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:59)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:267)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:137)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:96)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:77)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:108)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:102)
+	at sun.reflect.GeneratedMethodAccessor96.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:358)
+	at com.sun.proxy.$Proxy11.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:198)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:119)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:63)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52)
+	at com.sun.proxy.$Proxy12.selectByExample(Unknown Source)
+	at com.baotao.shop.user.service.UserServiceImpl.login(UserServiceImpl.java:78)
+	at sun.reflect.GeneratedMethodAccessor112.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:317)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	at com.sun.proxy.$Proxy15.login(Unknown Source)
+	at com.baotao.shop.my.controller.MyUserController.login(MyUserController.java:77)
+	at sun.reflect.GeneratedMethodAccessor111.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1629)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 91 more
+
+
+** END NESTED EXCEPTION **
+
+
+### The error may exist in com&#47;baotao&#47;shop&#47;user&#47;mapper&#47;UserMapper.xml
+### The error may involve com.baotao.shop.user.mapper.UserMapper.selectByExample
+### The error occurred while executing a query
+### SQL: select                 uid, username, password, email, sex, name, addr, phone, state, code         from user                    WHERE (  username = ?                                                                and password = ?                                                                and state = ? )
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception&#47;error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+MESSAGE: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2548)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2477)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1422)
+	at com.mysql.jdbc.DatabaseMetaData.getUserName(DatabaseMetaData.java:6591)
+	at org.apache.commons.dbcp.DelegatingConnection.toString(DelegatingConnection.java:104)
+	at org.apache.commons.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.toString(PoolingDataSource.java:344)
+	at java.lang.String.valueOf(String.java:2994)
+	at java.lang.StringBuilder.append(StringBuilder.java:136)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:86)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:279)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:72)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:59)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:267)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:137)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:96)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:77)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:108)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:102)
+	at sun.reflect.GeneratedMethodAccessor96.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:358)
+	at com.sun.proxy.$Proxy11.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:198)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:119)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:63)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52)
+	at com.sun.proxy.$Proxy12.selectByExample(Unknown Source)
+	at com.baotao.shop.user.service.UserServiceImpl.login(UserServiceImpl.java:78)
+	at sun.reflect.GeneratedMethodAccessor112.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:317)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	at com.sun.proxy.$Proxy15.login(Unknown Source)
+	at com.baotao.shop.my.controller.MyUserController.login(MyUserController.java:77)
+	at sun.reflect.GeneratedMethodAccessor111.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1629)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 91 more
+
+
+** END NESTED EXCEPTION **
+
+
+; SQL []; No operations allowed after connection closed.Connection was implicitly closed due to underlying exception&#47;error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+MESSAGE: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2548)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2477)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1422)
+	at com.mysql.jdbc.DatabaseMetaData.getUserName(DatabaseMetaData.java:6591)
+	at org.apache.commons.dbcp.DelegatingConnection.toString(DelegatingConnection.java:104)
+	at org.apache.commons.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.toString(PoolingDataSource.java:344)
+	at java.lang.String.valueOf(String.java:2994)
+	at java.lang.StringBuilder.append(StringBuilder.java:136)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:86)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:279)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:72)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:59)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:267)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:137)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:96)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:77)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:108)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:102)
+	at sun.reflect.GeneratedMethodAccessor96.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:358)
+	at com.sun.proxy.$Proxy11.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:198)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:119)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:63)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52)
+	at com.sun.proxy.$Proxy12.selectByExample(Unknown Source)
+	at com.baotao.shop.user.service.UserServiceImpl.login(UserServiceImpl.java:78)
+	at sun.reflect.GeneratedMethodAccessor112.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:317)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	at com.sun.proxy.$Proxy15.login(Unknown Source)
+	at com.baotao.shop.my.controller.MyUserController.login(MyUserController.java:77)
+	at sun.reflect.GeneratedMethodAccessor111.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1629)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 91 more
+
+
+** END NESTED EXCEPTION **
+
+; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception&#47;error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+MESSAGE: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2548)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2477)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1422)
+	at com.mysql.jdbc.DatabaseMetaData.getUserName(DatabaseMetaData.java:6591)
+	at org.apache.commons.dbcp.DelegatingConnection.toString(DelegatingConnection.java:104)
+	at org.apache.commons.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.toString(PoolingDataSource.java:344)
+	at java.lang.String.valueOf(String.java:2994)
+	at java.lang.StringBuilder.append(StringBuilder.java:136)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:86)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:279)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:72)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:59)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:267)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:137)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:96)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:77)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:108)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:102)
+	at sun.reflect.GeneratedMethodAccessor96.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:358)
+	at com.sun.proxy.$Proxy11.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:198)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:119)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:63)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52)
+	at com.sun.proxy.$Proxy12.selectByExample(Unknown Source)
+	at com.baotao.shop.user.service.UserServiceImpl.login(UserServiceImpl.java:78)
+	at sun.reflect.GeneratedMethodAccessor112.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:317)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	at com.sun.proxy.$Proxy15.login(Unknown Source)
+	at com.baotao.shop.my.controller.MyUserController.login(MyUserController.java:77)
+	at sun.reflect.GeneratedMethodAccessor111.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1629)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 91 more
+
+
+** END NESTED EXCEPTION **
+
+
+	org.springframework.jdbc.support.SQLExceptionSubclassTranslator.doTranslate(SQLExceptionSubclassTranslator.java:79)
+	org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:73)
+	org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)
+	org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:371)
+	com.sun.proxy.$Proxy11.selectList(Unknown Source)
+	org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:198)
+	org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:119)
+	org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:63)
+	org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52)
+	com.sun.proxy.$Proxy12.selectByExample(Unknown Source)
+	com.baotao.shop.user.service.UserServiceImpl.login(UserServiceImpl.java:78)
+	sun.reflect.GeneratedMethodAccessor112.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:317)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281)
+	org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	com.sun.proxy.$Proxy15.login(Unknown Source)
+	com.baotao.shop.my.controller.MyUserController.login(MyUserController.java:77)
+	sun.reflect.GeneratedMethodAccessor111.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+</pre><p><b>Root Cause</b></p><pre>com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception&#47;error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+MESSAGE: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2548)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2477)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1422)
+	at com.mysql.jdbc.DatabaseMetaData.getUserName(DatabaseMetaData.java:6591)
+	at org.apache.commons.dbcp.DelegatingConnection.toString(DelegatingConnection.java:104)
+	at org.apache.commons.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.toString(PoolingDataSource.java:344)
+	at java.lang.String.valueOf(String.java:2994)
+	at java.lang.StringBuilder.append(StringBuilder.java:136)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:86)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:279)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:72)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:59)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:267)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:137)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:96)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:77)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:108)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:102)
+	at sun.reflect.GeneratedMethodAccessor96.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:358)
+	at com.sun.proxy.$Proxy11.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:198)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:119)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:63)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52)
+	at com.sun.proxy.$Proxy12.selectByExample(Unknown Source)
+	at com.baotao.shop.user.service.UserServiceImpl.login(UserServiceImpl.java:78)
+	at sun.reflect.GeneratedMethodAccessor112.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:317)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	at com.sun.proxy.$Proxy15.login(Unknown Source)
+	at com.baotao.shop.my.controller.MyUserController.login(MyUserController.java:77)
+	at sun.reflect.GeneratedMethodAccessor111.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1629)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 91 more
+
+
+** END NESTED EXCEPTION **
+
+
+	sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	com.mysql.jdbc.Util.getInstance(Util.java:381)
+	com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984)
+	com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	com.mysql.jdbc.SQLError.createSQLException(SQLError.java:926)
+	com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1115)
+	com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4111)
+	com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4077)
+	org.apache.commons.dbcp.DelegatingConnection.prepareStatement(DelegatingConnection.java:248)
+	org.apache.commons.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.prepareStatement(PoolingDataSource.java:302)
+	sun.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	org.apache.ibatis.logging.jdbc.ConnectionLogger.invoke(ConnectionLogger.java:54)
+	com.sun.proxy.$Proxy34.prepareStatement(Unknown Source)
+	org.apache.ibatis.executor.statement.PreparedStatementHandler.instantiateStatement(PreparedStatementHandler.java:75)
+	org.apache.ibatis.executor.statement.BaseStatementHandler.prepare(BaseStatementHandler.java:85)
+	org.apache.ibatis.executor.statement.RoutingStatementHandler.prepare(RoutingStatementHandler.java:57)
+	org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:73)
+	org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:59)
+	org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:267)
+	org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:137)
+	org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:96)
+	org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:77)
+	org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:108)
+	org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:102)
+	sun.reflect.GeneratedMethodAccessor96.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:358)
+	com.sun.proxy.$Proxy11.selectList(Unknown Source)
+	org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:198)
+	org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:119)
+	org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:63)
+	org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52)
+	com.sun.proxy.$Proxy12.selectByExample(Unknown Source)
+	com.baotao.shop.user.service.UserServiceImpl.login(UserServiceImpl.java:78)
+	sun.reflect.GeneratedMethodAccessor112.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:317)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281)
+	org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	com.sun.proxy.$Proxy15.login(Unknown Source)
+	com.baotao.shop.my.controller.MyUserController.login(MyUserController.java:77)
+	sun.reflect.GeneratedMethodAccessor111.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.64</h3></body></html>
+[2022-07-18 10:18:31,825] requestUtil.py -> __doPost line:48 [INFO] 请求路径：http://124.223.178.186:8080/shop/mlogin
+[2022-07-18 10:18:31,825] requestUtil.py -> __doPost line:49 [INFO] 请求方式：POST
+[2022-07-18 10:18:31,825] requestUtil.py -> __doPost line:50 [INFO] 请求头：{'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '29', 'Content-Type': 'application/x-www-form-urlencoded'}
+[2022-07-18 10:18:31,825] requestUtil.py -> __doPost line:51 [INFO] 请求体：username=zhaoliu&password=123
+[2022-07-18 10:18:31,825] requestUtil.py -> __doPost line:52 [INFO] 响应状态码：200
+[2022-07-18 10:18:31,825] requestUtil.py -> __doPost line:53 [INFO] 响应头：{'Set-Cookie': 'JSESSIONID=7300839E699560BBEBB65EB97FB627F0; Path=/shop; HttpOnly', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Mon, 18 Jul 2022 02:18:31 GMT', 'Keep-Alive': 'timeout=20', 'Connection': 'keep-alive'}
+[2022-07-18 10:18:31,825] requestUtil.py -> __doPost line:54 [INFO] 响应文本内容：{"status":200,"msg":"success","data":{"user":{"uid":null,"username":"zhaoliu","password":"***","email":null,"sex":null,"name":null,"addr":null,"phone":null,"state":null,"code":null}}}
+[2022-07-18 10:18:31,964] requestUtil.py -> __doPost line:48 [INFO] 请求路径：http://124.223.178.186:8080/shop/mlogin
+[2022-07-18 10:18:31,964] requestUtil.py -> __doPost line:49 [INFO] 请求方式：POST
+[2022-07-18 10:18:31,964] requestUtil.py -> __doPost line:50 [INFO] 请求头：{'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '27', 'Content-Type': 'application/x-www-form-urlencoded'}
+[2022-07-18 10:18:31,964] requestUtil.py -> __doPost line:51 [INFO] 请求体：username=yyyy&password=1234
+[2022-07-18 10:18:31,964] requestUtil.py -> __doPost line:52 [INFO] 响应状态码：200
+[2022-07-18 10:18:31,965] requestUtil.py -> __doPost line:53 [INFO] 响应头：{'Set-Cookie': 'JSESSIONID=40B1373F736C9E1DE2CA612F37016387; Path=/shop; HttpOnly', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Mon, 18 Jul 2022 02:18:31 GMT', 'Keep-Alive': 'timeout=20', 'Connection': 'keep-alive'}
+[2022-07-18 10:18:31,965] requestUtil.py -> __doPost line:54 [INFO] 响应文本内容：{"status":400,"msg":"登录失败，用户名或者密码错误","data":null}
+[2022-07-18 10:18:32,063] requestUtil.py -> __doPost line:48 [INFO] 请求路径：http://124.223.178.186:8080/shop/mlogin
+[2022-07-18 10:18:32,063] requestUtil.py -> __doPost line:49 [INFO] 请求方式：POST
+[2022-07-18 10:18:32,063] requestUtil.py -> __doPost line:50 [INFO] 请求头：{'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '28', 'Content-Type': 'application/x-www-form-urlencoded'}
+[2022-07-18 10:18:32,063] requestUtil.py -> __doPost line:51 [INFO] 请求体：username=xxxx&password=12345
+[2022-07-18 10:18:32,063] requestUtil.py -> __doPost line:52 [INFO] 响应状态码：200
+[2022-07-18 10:18:32,063] requestUtil.py -> __doPost line:53 [INFO] 响应头：{'Set-Cookie': 'JSESSIONID=B3E952CD6B3B8BB6860EB753D28B0590; Path=/shop; HttpOnly', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Mon, 18 Jul 2022 02:18:31 GMT', 'Keep-Alive': 'timeout=20', 'Connection': 'keep-alive'}
+[2022-07-18 10:18:32,063] requestUtil.py -> __doPost line:54 [INFO] 响应文本内容：{"status":400,"msg":"登录失败，用户名或者密码错误","data":null}
+[2022-07-18 10:18:32,091] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：[{'name': 'mcheckImg', 'method': 'GET', 'url': '/shop/mcheckImg', 'headers': None, 'params': None, 'data': None, 'json': None, 'validate': {'statusCode': 200, 'errorCode': 200, 'msg': 'success'}, 'extract': {'body': {'code': 'data.code'}, 'headers': {'cookie': 'Set-Cookie'}}, 'depend': None}, {'name': 'mregist', 'method': 'POST', 'url': '/shop/mregist', 'headers': None, 'params': None, 'data': {'username': 'sjhfkjas', 'password': 123372, 'email': 'sjhfkjas@163.com'}, 'json': None, 'validate': {'statusCode': 200, 'errorCode': 200, 'msg': '恭喜您，注册成功'}, 'extract': None, 'depend': {'headers': {'Cookie': 'cookie'}, 'params': None, 'data': {'verifyCode': 'code'}, 'json': None}}]
+[2022-07-18 10:18:32,092] SceneRequestUtil.py -> yamlAndRequest line:27 [INFO] 发送请求：mcheckImg
+[2022-07-18 10:18:32,173] requestUtil.py -> __doGet line:27 [INFO] 请求路径：http://124.223.178.186:8080/shop/mcheckImg
+[2022-07-18 10:18:32,174] requestUtil.py -> __doGet line:28 [INFO] 请求方式：GET
+[2022-07-18 10:18:32,174] requestUtil.py -> __doGet line:29 [INFO] 请求头：{'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+[2022-07-18 10:18:32,174] requestUtil.py -> __doGet line:30 [INFO] 请求体：None
+[2022-07-18 10:18:32,174] requestUtil.py -> __doGet line:31 [INFO] 响应状态码：200
+[2022-07-18 10:18:32,174] requestUtil.py -> __doGet line:32 [INFO] 响应头：{'Set-Cookie': 'JSESSIONID=6488174049D5FF38E7B6ED1529DE4F9F; Path=/shop; HttpOnly', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Mon, 18 Jul 2022 02:18:31 GMT', 'Keep-Alive': 'timeout=20', 'Connection': 'keep-alive'}
+[2022-07-18 10:18:32,174] requestUtil.py -> __doGet line:33 [INFO] 响应文本内容：{"status":200,"msg":"success","data":{"code":"GBBU"}}
+[2022-07-18 10:18:32,195] SceneRequestUtil.py -> getDeptParams line:98 [INFO] 数据源：{'status': 200, 'msg': 'success', 'data': {'code': 'GBBU'}},提取规则：data.code,提取结果：GBBU
+[2022-07-18 10:18:32,196] variable.py -> set line:25 [INFO] 保存键值对：key=code, value=GBBU
+[2022-07-18 10:18:32,208] SceneRequestUtil.py -> getDeptParams line:98 [INFO] 数据源：{'Set-Cookie': 'JSESSIONID=6488174049D5FF38E7B6ED1529DE4F9F; Path=/shop; HttpOnly', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Mon, 18 Jul 2022 02:18:31 GMT', 'Keep-Alive': 'timeout=20', 'Connection': 'keep-alive'},提取规则：Set-Cookie,提取结果：JSESSIONID=6488174049D5FF38E7B6ED1529DE4F9F; Path=/shop; HttpOnly
+[2022-07-18 10:18:32,209] variable.py -> set line:25 [INFO] 保存键值对：key=cookie, value=JSESSIONID=6488174049D5FF38E7B6ED1529DE4F9F; Path=/shop; HttpOnly
+[2022-07-18 10:18:32,209] SceneRequestUtil.py -> yamlAndRequest line:27 [INFO] 发送请求：mregist
+[2022-07-18 10:18:32,209] variable.py -> get line:34 [INFO] 获取键值对：key=cookie
+[2022-07-18 10:18:32,209] variable.py -> get line:34 [INFO] 获取键值对：key=code
+[2022-07-18 10:18:32,304] requestUtil.py -> __doPost line:48 [INFO] 请求路径：http://124.223.178.186:8080/shop/mregist
+[2022-07-18 10:18:32,305] requestUtil.py -> __doPost line:49 [INFO] 请求方式：POST
+[2022-07-18 10:18:32,305] requestUtil.py -> __doPost line:50 [INFO] 请求头：{'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Cookie': 'JSESSIONID=6488174049D5FF38E7B6ED1529DE4F9F; Path=/shop; HttpOnly', 'Content-Length': '74', 'Content-Type': 'application/x-www-form-urlencoded'}
+[2022-07-18 10:18:32,305] requestUtil.py -> __doPost line:51 [INFO] 请求体：username=sjhfkjas&password=123372&email=sjhfkjas%40163.com&verifyCode=GBBU
+[2022-07-18 10:18:32,305] requestUtil.py -> __doPost line:52 [INFO] 响应状态码：200
+[2022-07-18 10:18:32,305] requestUtil.py -> __doPost line:53 [INFO] 响应头：{'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Mon, 18 Jul 2022 02:18:31 GMT', 'Keep-Alive': 'timeout=20', 'Connection': 'keep-alive'}
+[2022-07-18 10:18:32,305] requestUtil.py -> __doPost line:54 [INFO] 响应文本内容：{"status":200,"msg":"恭喜您，注册成功","data":null}
+[2022-07-18 10:18:32,325] YamlUtil.py -> getYamlData line:30 [INFO] 读取yaml配置内容：[{'name': 'mcheckImg', 'method': 'GET', 'url': '/shop/mcheckImg', 'headers': None, 'params': None, 'data': None, 'json': None, 'validate': {'statusCode': 200, 'errorCode': 200, 'msg': 'success'}, 'extract': {'body': {'code': 'data.code'}, 'headers': {'cookie': 'Set-Cookie'}}, 'depend': None}, {'name': 'mregist', 'method': 'POST', 'url': '/shop/mregist', 'headers': None, 'params': None, 'data': {'username': 'zhaoliu', 'password': 123, 'email': 'zhaoliu@163.com'}, 'json': None, 'validate': {'statusCode': 200, 'errorCode': 400, 'msg': '用户名已存在'}, 'extract': None, 'depend': {'headers': {'Cookie': 'cookie'}, 'params': None, 'data': {'verifyCode': 'code'}, 'json': None}}]
+[2022-07-18 10:18:32,325] SceneRequestUtil.py -> yamlAndRequest line:27 [INFO] 发送请求：mcheckImg
+[2022-07-18 10:18:32,427] requestUtil.py -> __doGet line:27 [INFO] 请求路径：http://124.223.178.186:8080/shop/mcheckImg
+[2022-07-18 10:18:32,427] requestUtil.py -> __doGet line:28 [INFO] 请求方式：GET
+[2022-07-18 10:18:32,427] requestUtil.py -> __doGet line:29 [INFO] 请求头：{'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+[2022-07-18 10:18:32,427] requestUtil.py -> __doGet line:30 [INFO] 请求体：None
+[2022-07-18 10:18:32,428] requestUtil.py -> __doGet line:31 [INFO] 响应状态码：200
+[2022-07-18 10:18:32,428] requestUtil.py -> __doGet line:32 [INFO] 响应头：{'Set-Cookie': 'JSESSIONID=9D8BBEE9DB8E1EB192A5173386404B83; Path=/shop; HttpOnly', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Mon, 18 Jul 2022 02:18:31 GMT', 'Keep-Alive': 'timeout=20', 'Connection': 'keep-alive'}
+[2022-07-18 10:18:32,428] requestUtil.py -> __doGet line:33 [INFO] 响应文本内容：{"status":200,"msg":"success","data":{"code":"zobU"}}
+[2022-07-18 10:18:32,446] SceneRequestUtil.py -> getDeptParams line:98 [INFO] 数据源：{'status': 200, 'msg': 'success', 'data': {'code': 'zobU'}},提取规则：data.code,提取结果：zobU
+[2022-07-18 10:18:32,446] variable.py -> set line:25 [INFO] 保存键值对：key=code, value=zobU
+[2022-07-18 10:18:32,459] SceneRequestUtil.py -> getDeptParams line:98 [INFO] 数据源：{'Set-Cookie': 'JSESSIONID=9D8BBEE9DB8E1EB192A5173386404B83; Path=/shop; HttpOnly', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Mon, 18 Jul 2022 02:18:31 GMT', 'Keep-Alive': 'timeout=20', 'Connection': 'keep-alive'},提取规则：Set-Cookie,提取结果：JSESSIONID=9D8BBEE9DB8E1EB192A5173386404B83; Path=/shop; HttpOnly
+[2022-07-18 10:18:32,460] variable.py -> set line:25 [INFO] 保存键值对：key=cookie, value=JSESSIONID=9D8BBEE9DB8E1EB192A5173386404B83; Path=/shop; HttpOnly
+[2022-07-18 10:18:32,460] SceneRequestUtil.py -> yamlAndRequest line:27 [INFO] 发送请求：mregist
+[2022-07-18 10:18:32,460] variable.py -> get line:34 [INFO] 获取键值对：key=cookie
+[2022-07-18 10:18:32,460] variable.py -> get line:34 [INFO] 获取键值对：key=code
+[2022-07-18 10:18:32,554] requestUtil.py -> __doPost line:48 [INFO] 请求路径：http://124.223.178.186:8080/shop/mregist
+[2022-07-18 10:18:32,554] requestUtil.py -> __doPost line:49 [INFO] 请求方式：POST
+[2022-07-18 10:18:32,554] requestUtil.py -> __doPost line:50 [INFO] 请求头：{'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Cookie': 'JSESSIONID=9D8BBEE9DB8E1EB192A5173386404B83; Path=/shop; HttpOnly', 'Content-Length': '69', 'Content-Type': 'application/x-www-form-urlencoded'}
+[2022-07-18 10:18:32,554] requestUtil.py -> __doPost line:51 [INFO] 请求体：username=zhaoliu&password=123&email=zhaoliu%40163.com&verifyCode=zobU
+[2022-07-18 10:18:32,554] requestUtil.py -> __doPost line:52 [INFO] 响应状态码：200
+[2022-07-18 10:18:32,554] requestUtil.py -> __doPost line:53 [INFO] 响应头：{'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Mon, 18 Jul 2022 02:18:32 GMT', 'Keep-Alive': 'timeout=20', 'Connection': 'keep-alive'}
+[2022-07-18 10:18:32,554] requestUtil.py -> __doPost line:54 [INFO] 响应文本内容：{"status":200,"msg":"恭喜您，注册成功","data":null}
+[2022-07-18 10:18:32,684] requestUtil.py -> __doPost line:48 [INFO] 请求路径：http://124.223.178.186:8080/shop/mfindByPageCsid
+[2022-07-18 10:18:32,684] requestUtil.py -> __doPost line:49 [INFO] 请求方式：POST
+[2022-07-18 10:18:32,684] requestUtil.py -> __doPost line:50 [INFO] 请求头：{'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '13', 'Content-Type': 'application/x-www-form-urlencoded'}
+[2022-07-18 10:18:32,684] requestUtil.py -> __doPost line:51 [INFO] 请求体：csid=1&page=1
+[2022-07-18 10:18:32,684] requestUtil.py -> __doPost line:52 [INFO] 响应状态码：200
+[2022-07-18 10:18:32,684] requestUtil.py -> __doPost line:53 [INFO] 响应头：{'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Mon, 18 Jul 2022 02:18:32 GMT', 'Keep-Alive': 'timeout=20', 'Connection': 'keep-alive'}
+[2022-07-18 10:18:32,685] requestUtil.py -> __doPost line:54 [INFO] 响应文本内容：{"status":200,"msg":"success","data":{"page":1,"limit":12,"total":11,"totalPage":1,"list":[{"pid":72,"pname":"冬季新款大码女装修身加厚棉打底连衣裙女","marketPrice":200.0,"shopPrice":125.0,"image":"products/1/cs70010.png","num":100,"pdesc":"upload","isHot":1,"pdate":1418572800000,"csid":1},{"pid":4,"pname":"韩版女装翻领羔绒夹棉格子毛呢外套","marketPrice":238.0,"shopPrice":119.0,"image":"products/1/cs10004.jpg","num":1000,"pdesc":"外套款。 称为棉衣也不为过 或者因为它的表层毛呢　称呼为毛呢外套 ｙａｎｇ　羔绒位于翻领及袖口 从视觉着手　带来温暖无限 夹棉里衬（袖里也有）再次提升御寒功能 流行元素上　选择红黑格纹理　大气而又经典 金属拉链开叉　插袋自不会少","isHot":0,"pdate":1417954680000,"csid":1},{"pid":6,"pname":"冬装韩版女装翻领羔绒夹棉格子毛呢外套","marketPrice":238.0,"shopPrice":119.0,"image":"products/1/cs10006.jpg","num":300,"pdesc":"外套款。 称为棉衣也不为过 或者因为它的表层毛呢　称呼为毛呢外套 ｙａｎｇ　羔绒位于翻领及袖口 从视觉着手　带来温暖无限 夹棉里衬（袖里也有）再次提升御寒功能 流行元素上　选择红黑格纹理　大气而又经典 金属拉链开叉　插袋自不会少","isHot":0,"pdate":1415603880000,"csid":1},{"pid":2,"pname":"女装立领长袖拼接PU皮毛呢外套","marketPrice":436.0,"shopPrice":172.0,"image":"products/1/cs10002.jpg","num":10,"pdesc":"【现在拍下并支付定金，即可获得双12当天10元无门槛优惠券一张。注：只限有预付定金款~优惠券统一在12月11号发放】 毛呢外套 整洁干练的长款版型 整个肩部给予皮绒拼接 与毛呢一起撑起品质感 立领 长袖 肩部往下做流行加层拼接 一粒扣收合门襟 特意做的夹棉里层（袖里无） 不必再畏惧冷冽寒风","isHot":0,"pdate":1415103480000,"csid":1},{"pid":7,"pname":"新款优雅奢华毛领白鸭绒轻薄羽绒服","marketPrice":1120.0,"shopPrice":590.0,"image":"products/1/cs10007.jpg","num":600,"pdesc":"秋冬热卖款，今日特惠！库存有限，卖完即止！喜欢的赶紧出手哦！","isHot":0,"pdate":1415017080000,"csid":1},{"pid":8,"pname":"秋冬季毛呢外套女中长款圆领小香风呢子大衣","marketPrice":672.0,"shopPrice":336.0,"image":"products/1/cs10008.jpg","num":400,"pdesc":"【双12预售】双12提前开抢，11月24日—12月11日抢先付预付款33.6元，12月12日付剩余尾款，先付先发货，提前引爆双12！！！买就【送】双十二10元无门槛优惠券！！！商家【赠】运费险！！！","isHot":0,"pdate":1415017080000,"csid":1},{"pid":9,"pname":"女装貉子毛大衣 时尚修身长袖淑女毛呢外套","marketPrice":238.0,"shopPrice":119.0,"image":"products/1/cs10009.jpg","num":100,"pdesc":"秋冬热卖款，今日特惠！库存有限，卖完即止！喜欢的赶紧出手哦！","isHot":0,"pdate":1415017080000,"csid":1},{"pid":10,"pname":"修身显瘦淑女针织长袖打底连衣裙女","marketPrice":356.0,"shopPrice":158.0,"image":"products/1/cs10010.jpg","num":600,"pdesc":"【1212万能盛典预售抢先购,早买早便宜！】定金15.80元，预售价158.00元，双12价涨价至178.00元!","isHot":0,"pdate":1415017080000,"csid":1},{"pid":1,"pname":"韩版连帽加厚毛衣女外套","marketPrice":558.0,"shopPrice":228.0,"image":"products/1/cs10001.jpg","num":200,"pdesc":"双11限量200件，拍完下架，加车享优惠，早下手早发货。。秋冬个性中长款毛衣，美丽和温度同在！限量供应，拒绝撞衫！迫于纱线和人工在不断上涨的双重压力下，产品涨价在即！少量现货出售中，手快有，手慢等哦，赶紧抢哦，绝对高大上。","isHot":1,"pdate":1414930680000,"csid":1},{"pid":5,"pname":"韩版女装翻领羔绒夹棉格子毛呢外套","marketPrice":238.0,"shopPrice":119.0,"image":"products/1/cs10005.jpg","num":800,"pdesc":"外套款。 称为棉衣也不为过 或者因为它的表层毛呢　称呼为毛呢外套 ｙａｎｇ　羔绒位于翻领及袖口 从视觉着手　带来温暖无限 夹棉里衬（袖里也有）再次提升御寒功能 流行元素上　选择红黑格纹理　大气而又经典 金属拉链开叉　插袋自不会少","isHot":0,"pdate":1414930680000,"csid":1},{"pid":3,"pname":"韩版女装翻领羔绒夹棉格子毛呢外套","marketPrice":238.0,"shopPrice":119.0,"image":"products/1/cs10003.jpg","num":500,"pdesc":"外套款。 称为棉衣也不为过 或者因为它的表层毛呢　称呼为毛呢外套 ｙａｎｇ　羔绒位于翻领及袖口 从视觉着手　带来温暖无限 夹棉里衬（袖里也有）再次提升御寒功能 流行元素上　选择红黑格纹理　大气而又经典 金属拉链开叉　插袋自不会少","isHot":0,"pdate":1412165880000,"csid":1}]}}
+[2022-07-18 10:18:32,918] requestUtil.py -> __doPost line:48 [INFO] 请求路径：http://124.223.178.186:8080/shop/mfindByPageCsid
+[2022-07-18 10:18:32,918] requestUtil.py -> __doPost line:49 [INFO] 请求方式：POST
+[2022-07-18 10:18:32,919] requestUtil.py -> __doPost line:50 [INFO] 请求头：{'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '13', 'Content-Type': 'application/x-www-form-urlencoded'}
+[2022-07-18 10:18:32,919] requestUtil.py -> __doPost line:51 [INFO] 请求体：csid=2&page=2
+[2022-07-18 10:18:32,919] requestUtil.py -> __doPost line:52 [INFO] 响应状态码：200
+[2022-07-18 10:18:32,919] requestUtil.py -> __doPost line:53 [INFO] 响应头：{'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Mon, 18 Jul 2022 02:18:32 GMT', 'Keep-Alive': 'timeout=20', 'Connection': 'keep-alive'}
+[2022-07-18 10:18:32,919] requestUtil.py -> __doPost line:54 [INFO] 响应文本内容：{"status":400,"msg":"二级分类id没有查询到","data":{"page":2,"limit":12,"total":10,"totalPage":1,"list":[]}}
+[2022-07-18 10:18:33,069] requestUtil.py -> __doPost line:48 [INFO] 请求路径：http://124.223.178.186:8080/shop/mfindByPageCsid
+[2022-07-18 10:18:33,070] requestUtil.py -> __doPost line:49 [INFO] 请求方式：POST
+[2022-07-18 10:18:33,070] requestUtil.py -> __doPost line:50 [INFO] 请求头：{'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '13', 'Content-Type': 'application/x-www-form-urlencoded'}
+[2022-07-18 10:18:33,070] requestUtil.py -> __doPost line:51 [INFO] 请求体：csid=3&page=0
+[2022-07-18 10:18:33,070] requestUtil.py -> __doPost line:52 [INFO] 响应状态码：500
+[2022-07-18 10:18:33,070] requestUtil.py -> __doPost line:53 [INFO] 响应头：{'Content-Type': 'text/html;charset=utf-8', 'Content-Language': 'en', 'Transfer-Encoding': 'chunked', 'Date': 'Mon, 18 Jul 2022 02:18:32 GMT', 'Connection': 'close'}
+[2022-07-18 10:18:33,070] requestUtil.py -> __doPost line:54 [INFO] 响应文本内容：<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Message</b> Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: </p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near &#39;-12,12&#39; at line 7
+### The error may exist in com&#47;baotao&#47;shop&#47;product&#47;mapper&#47;ProductMapper.xml
+### The error may involve com.baotao.shop.product.mapper.ProductMapper.findByPageCsid-Inline
+### The error occurred while setting parameters
+### SQL: SELECT *   FROM product p,   categorysecond cs   WHERE p.csid = cs.csid   AND cs.csid =?   order by pdate desc   limit ?,?
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near &#39;-12,12&#39; at line 7
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near &#39;-12,12&#39; at line 7
+	org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)
+	org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+</pre><p><b>Root Cause</b></p><pre>org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near &#39;-12,12&#39; at line 7
+### The error may exist in com&#47;baotao&#47;shop&#47;product&#47;mapper&#47;ProductMapper.xml
+### The error may involve com.baotao.shop.product.mapper.ProductMapper.findByPageCsid-Inline
+### The error occurred while setting parameters
+### SQL: SELECT *   FROM product p,   categorysecond cs   WHERE p.csid = cs.csid   AND cs.csid =?   order by pdate desc   limit ?,?
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near &#39;-12,12&#39; at line 7
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near &#39;-12,12&#39; at line 7
+	org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:231)
+	org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:73)
+	org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)
+	org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:371)
+	com.sun.proxy.$Proxy11.selectList(Unknown Source)
+	org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:198)
+	org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:119)
+	org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:63)
+	org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52)
+	com.sun.proxy.$Proxy16.findByPageCsid(Unknown Source)
+	com.baotao.shop.product.service.ProductServiceImpl.findByPageCsid(ProductServiceImpl.java:106)
+	sun.reflect.GeneratedMethodAccessor127.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:317)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281)
+	org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	com.sun.proxy.$Proxy17.findByPageCsid(Unknown Source)
+	com.baotao.shop.my.controller.MyProductController.findByPageCsid(MyProductController.java:76)
+	sun.reflect.GeneratedMethodAccessor126.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+</pre><p><b>Root Cause</b></p><pre>com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near &#39;-12,12&#39; at line 7
+	sun.reflect.GeneratedConstructorAccessor34.newInstance(Unknown Source)
+	sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	com.mysql.jdbc.Util.getInstance(Util.java:381)
+	com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3515)
+	com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3447)
+	com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+	com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+	com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1021)
+	org.apache.commons.dbcp.DelegatingPreparedStatement.execute(DelegatingPreparedStatement.java:169)
+	sun.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:62)
+	com.sun.proxy.$Proxy35.execute(Unknown Source)
+	org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:59)
+	org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:73)
+	org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:60)
+	org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:267)
+	org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:137)
+	org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:96)
+	org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:77)
+	org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:108)
+	org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:102)
+	sun.reflect.GeneratedMethodAccessor96.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:358)
+	com.sun.proxy.$Proxy11.selectList(Unknown Source)
+	org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:198)
+	org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:119)
+	org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:63)
+	org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52)
+	com.sun.proxy.$Proxy16.findByPageCsid(Unknown Source)
+	com.baotao.shop.product.service.ProductServiceImpl.findByPageCsid(ProductServiceImpl.java:106)
+	sun.reflect.GeneratedMethodAccessor127.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:317)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281)
+	org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	com.sun.proxy.$Proxy17.findByPageCsid(Unknown Source)
+	com.baotao.shop.my.controller.MyProductController.findByPageCsid(MyProductController.java:76)
+	sun.reflect.GeneratedMethodAccessor126.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.64</h3></body></html>
+[2022-07-18 10:18:33,169] requestUtil.py -> __doPost line:48 [INFO] 请求路径：http://124.223.178.186:8080/shop/mfindByPageCsid
+[2022-07-18 10:18:33,169] requestUtil.py -> __doPost line:49 [INFO] 请求方式：POST
+[2022-07-18 10:18:33,169] requestUtil.py -> __doPost line:50 [INFO] 请求头：{'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '13', 'Content-Type': 'application/x-www-form-urlencoded'}
+[2022-07-18 10:18:33,169] requestUtil.py -> __doPost line:51 [INFO] 请求体：csid=q&page=r
+[2022-07-18 10:18:33,169] requestUtil.py -> __doPost line:52 [INFO] 响应状态码：400
+[2022-07-18 10:18:33,169] requestUtil.py -> __doPost line:53 [INFO] 响应头：{'Content-Type': 'text/html;charset=utf-8', 'Content-Language': 'en', 'Content-Length': '762', 'Date': 'Mon, 18 Jul 2022 02:18:32 GMT', 'Connection': 'close'}
+[2022-07-18 10:18:33,169] requestUtil.py -> __doPost line:54 [INFO] 响应文本内容：<!doctype html><html lang="en"><head><title>HTTP Status 400 – Bad Request</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400 – Bad Request</h1><hr class="line" /><p><b>Type</b> Status Report</p><p><b>Description</b> The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).</p><hr class="line" /><h3>Apache Tomcat/8.5.64</h3></body></html>
+[2022-07-18 10:18:33,275] requestUtil.py -> __doPost line:48 [INFO] 请求路径：http://124.223.178.186:8080/shop/mfindByPageCsid
+[2022-07-18 10:18:33,275] requestUtil.py -> __doPost line:49 [INFO] 请求方式：POST
+[2022-07-18 10:18:33,275] requestUtil.py -> __doPost line:50 [INFO] 请求头：{'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '13', 'Content-Type': 'application/x-www-form-urlencoded'}
+[2022-07-18 10:18:33,275] requestUtil.py -> __doPost line:51 [INFO] 请求体：csid=z&page=s
+[2022-07-18 10:18:33,275] requestUtil.py -> __doPost line:52 [INFO] 响应状态码：400
+[2022-07-18 10:18:33,275] requestUtil.py -> __doPost line:53 [INFO] 响应头：{'Content-Type': 'text/html;charset=utf-8', 'Content-Language': 'en', 'Content-Length': '762', 'Date': 'Mon, 18 Jul 2022 02:18:32 GMT', 'Connection': 'close'}
+[2022-07-18 10:18:33,275] requestUtil.py -> __doPost line:54 [INFO] 响应文本内容：<!doctype html><html lang="en"><head><title>HTTP Status 400 – Bad Request</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400 – Bad Request</h1><hr class="line" /><p><b>Type</b> Status Report</p><p><b>Description</b> The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).</p><hr class="line" /><h3>Apache Tomcat/8.5.64</h3></body></html>
